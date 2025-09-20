@@ -1,0 +1,7 @@
+{
+    "files.readonlyInclude": {
+        "/Users/caropark/FAO_ag_check_code/notebook/1B.usa_plots.ipynb": true,
+        "/Users/caropark/FAO_ag_check_code/notebook/3A.plot_maps.ipynb": true,
+        "/Users/caropark/FAO_ag_check_code/notebook/3B.plot_flags_update.ipynb": true
+    }
+}

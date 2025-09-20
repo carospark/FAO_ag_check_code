@@ -1,3 +1,7 @@
+__pycache__
+*.py[cod]
+
+
 # macOS
 .DS_Store
 
@@ -5,3 +9,13 @@
 .ipynb_checkpoints/
 .DS_Store
 .ipynb_checkpoints/
+
+# folder
+MUSTDO/
+
+# Packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
