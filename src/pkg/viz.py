@@ -11,9 +11,9 @@ from .clean import clean_map_gpd
 
 def annotate_corr(data, color, **kws):
     ax = plt.gca()
-    sub_df = data[['csif', 'yield']].dropna()
+    sub_df = data[['csif_log_dt', 'yield_log_dt']].dropna()
     if len(sub_df) >= 2:
-        r, _ = stats.pearsonr(sub_df['csif'], sub_df['yield'])
+        r, _ = stats.pearsonr(sub_df['csif_log_dt'], sub_df['yield_log_dt'])
         ax.annotate(f"r = {r:.2f}",
             xy=(0.08, 0.90), xycoords=ax.transAxes,
             bbox=dict(boxstyle='round,pad=0.3', edgecolor='none', facecolor='lightyellow'))
@@ -24,7 +24,7 @@ def plot_yield_secondary(data, **kwargs):
     ax1 = plt.gca()
     ax2 = ax1.twinx()
     kwargs.pop("color", None)
-    sns.lineplot(data=data, x="year", y="yield", ax=ax2, lw=2, ci=None, color="black")
+    sns.lineplot(data=data, x="year", y="yield_log_dt", ax=ax2, lw=2, ci=None, color="black")
     ax2.set_ylabel("")  
     if data['year'].notna().any():
         xmin, xmax = np.nanmin(data['year']), np.nanmax(data['year'])
@@ -46,7 +46,7 @@ def plot_twin_lines(data, col, col_order, col_wrap, grid_kwargs, plot_kwargs, fi
 
     g = sns.FacetGrid(**grid_args)
 
-    plot_args = dict(x="year", y="csif", lw=3, ci=None)
+    plot_args = dict(x="year", y="csif_log_dt", lw=3, ci=None)
     if plot_kwargs:
         plot_args.update(plot_kwargs)
 
@@ -85,7 +85,7 @@ def plot_twin_lines(data, col, col_order, col_wrap, grid_kwargs, plot_kwargs, fi
     plt.close()
 
 
-def plot_map(data, column, title, cmap, cbar_label, filename, **kwargs):
+def plot_map(data, column, title, cbar_label, cmap, filename, **kwargs):
     countries = clean_map_gpd()
     merged = countries.merge(data, how="left", on="iso_a3")
 
@@ -94,8 +94,8 @@ def plot_map(data, column, title, cmap, cbar_label, filename, **kwargs):
     plot_args = dict(column=column, ax=ax, legend=True, cmap=cmap, 
                      missing_kwds={'color': 'lightgrey'})
     
-    if is_numeric_dtype(merged[column]) and cbar_label is not None:
-        plot_args["legend_kwds"] = {'label': "Correspondance Index",
+    if is_numeric_dtype(merged[column]):
+        plot_args["legend_kwds"] = {'label': cbar_label,
                         'orientation': "horizontal", 'pad': -0.01}
 
     plot_args.update(kwargs)

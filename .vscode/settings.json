@@ -1,10 +1,10 @@
 {
     "files.readonlyInclude": {
-        "/Users/caropark/FAO_ag_check_code/notebook/3A.plot_maps.ipynb": true,
         "/Users/caropark/FAO_ag_check_code/notebook/4.modis_vars_model.ipynb": true,
         "/Users/caropark/FAO_ag_check_code/notebook/0A.data_check_n_clean.ipynb": true,
         "/Users/caropark/FAO_ag_check_code/notebook/3B.plot_flags_update.ipynb": true,
         "/Users/caropark/FAO_ag_check_code/notebook/0C.making_country_crop_keys.ipynb": true,
-        "/Users/caropark/FAO_ag_check_code/notebook/yield_comparison_model.ipynb": true
+        "/Users/caropark/FAO_ag_check_code/notebook/yield_comparison_model.ipynb": true,
+        "/Users/caropark/FAO_ag_check_code/notebook/1B.usa_plots.ipynb": true
     }
 }
