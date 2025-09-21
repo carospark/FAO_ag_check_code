@@ -36,7 +36,12 @@ def fetch_clean_wb():
     country_key = pd.read_csv("./data/country_key.csv")
     gdp_df = gdp_df.merge(country_key, how="left", on="iso_a3").drop(columns={"lowres", "fao"})
     #gdp_df.to_csv("wb_gdp_per_cap.csv",index=False)
-    return gdp_df
+
+    inc_class = pd.read_csv("./data/wb_classification_raw.csv", index_col=None).rename(columns={'country': 'wb'})
+    key = pd.read_csv("./data/country_key.csv")[['country', 'wb']]
+    inc_class = inc_class.merge(key, how="left", on="wb")
+    #inc_class.to_csv("./data/wb_classification.csv",index=False)
+    return gdp_df, inc_class
 
 def clean_fao_flags():
     fao = (pd.read_csv("./data/faostat_all_flags_raw.csv")[lambda df: df['Flag Description'] == "Estimated value"]
@@ -46,6 +51,7 @@ def clean_fao_flags():
     cropkey = pd.read_pickle("./data/calendar_fao_cropkey.pkl")
     fao = fao.merge(cropkey[['item', 'cropname']], on='item', how="left")
     #fao.to_csv("faostat_all_flags.csv",index=False)
+
 
 
 

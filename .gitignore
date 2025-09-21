@@ -13,6 +13,9 @@ __pycache__
 # folder
 MUSTDO/
 
+# vs code
+.vscode
+
 # Packaging
 *.egg-info/
 *.egg

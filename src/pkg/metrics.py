@@ -20,4 +20,17 @@ def regress(data, yvar, xvars):
     return pd.Series([result.params[0], result.rsquared, residual_var])
 
 
-__all__ = ["pearson_corr", "regress"]
+def nakagawa_r2(mod_fit):       # for mixed LM
+    var_f = np.var(mod_fit.fittedvalues, ddof=1)   # variance explained by fixed effects, ddof = divides by n-1 (sample variance, unbiased)
+    var_r = mod_fit.cov_re.iloc[0, 0]              # random intercept variance
+    var_e = mod_fit.scale                          # residual variance (error term)
+
+    marginal_r2   = var_f / (var_f + var_r + var_e)
+    conditional_r2 = (var_f + var_r) / (var_f + var_r + var_e)
+
+    print("Marginal R² =", marginal_r2)
+    print("Conditional R² =", conditional_r2)
+
+
+
+__all__ = ["pearson_corr", "regress", "nakagawa_r2"]
