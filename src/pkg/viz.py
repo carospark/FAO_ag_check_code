@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from pandas.api.types import is_numeric_dtype
 from .clean import clean_map_gpd
+from .metrics import pearson_corr
 plt.rcParams.update({'font.size': 22})
 
 #import os
@@ -35,8 +36,16 @@ def plot_yield_secondary(data, **kwargs):
         ax1.set_xticklabels([str(t) for t in xticks])
 
 
-def plot_twin_lines(data, col, col_order, col_wrap, grid_kwargs, plot_kwargs, filename, fl=None):
+
+def plot_twin_lines(data, col, col_wrap, filename, grid_kwargs=None, plot_kwargs=None, col_order=None, fl=None):
     data.columns = data.columns.str.lower()
+
+    if col_order is None:
+        corrs = (data.groupby(col, group_keys=False)
+            .apply(lambda d: pearson_corr(d, "csif_log_dt", "yield_log_dt"))
+            .sort_values(ascending=False))
+
+        col_order = corrs.index.tolist()
 
     grid_args = dict(data=data, col=col, 
         col_order=col_order, col_wrap=col_wrap,
@@ -84,6 +93,8 @@ def plot_twin_lines(data, col, col_order, col_wrap, grid_kwargs, plot_kwargs, fi
     plt.savefig(f"./plots/{filename}.pdf", bbox_inches='tight')
     plt.show()
     plt.close()
+
+
 
 
 def plot_map(data, column, title, cbar_label, cmap, filename, vmin=None, vmax=None, **kwargs):
