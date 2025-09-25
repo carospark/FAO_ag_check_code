@@ -16,6 +16,9 @@ MUSTDO/
 # vs code
 .vscode
 
+# my little dumb practice
+basic_fxs_practice.ipynb
+
 # Packaging
 *.egg-info/
 *.egg

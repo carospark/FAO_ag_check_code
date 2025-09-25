@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 from pandas.api.types import is_numeric_dtype
 from .clean import clean_map_gpd
+plt.rcParams.update({'font.size': 22})
 
 #import os
 
@@ -85,13 +86,13 @@ def plot_twin_lines(data, col, col_order, col_wrap, grid_kwargs, plot_kwargs, fi
     plt.close()
 
 
-def plot_map(data, column, title, cbar_label, cmap, filename, **kwargs):
+def plot_map(data, column, title, cbar_label, cmap, filename, vmin=None, vmax=None, **kwargs):
     countries = clean_map_gpd()
     merged = countries.merge(data, how="left", on="iso_a3")
 
     fig, ax = plt.subplots(1, 1, figsize=(20, 15))
 
-    plot_args = dict(column=column, ax=ax, legend=True, cmap=cmap, 
+    plot_args = dict(column=column, ax=ax, legend=True, cmap=cmap, vmin=vmin, vmax=vmax,
                      missing_kwds={'color': 'lightgrey'})
     
     if is_numeric_dtype(merged[column]):
