@@ -4,7 +4,9 @@
         "/Users/caropark/FAO_ag_check_code/notebook/0C.making_country_crop_keys.ipynb": true,
         "/Users/caropark/FAO_ag_check_code/notebook/yield_comparison_model.ipynb": true,
         "/Users/caropark/FAO_ag_check_code/MUSTDO/yield_comparison_model.ipynb": true,
+        "/Users/caropark/FAO_ag_check_code/src/scripts/1B.YC_model.py": true,
+        "/Users/caropark/FAO_ag_check_code/src/scripts/1C.YC_line_plots.py": true,
         "/Users/caropark/FAO_ag_check_code/src/scripts/1A.generating_YC_model_df.py": true,
-        "/Users/caropark/FAO_ag_check_code/src/scripts/1B.YC_model.py": true
+        "/Users/caropark/FAO_ag_check_code/src/scripts/1D.YC_map_plots.py": true
     }
 }

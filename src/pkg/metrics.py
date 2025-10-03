@@ -11,15 +11,6 @@ def pearson_corr(df: pd.DataFrame, x: str, y: str) -> float:
     return sub.corr().iloc[0, 1] ## off-diagonal = correlation
 
 
-def regress(data, yvar, xvars):
-    Y = data[yvar]
-    X = data[xvars]
-    X['intercept'] = 1.
-    result = sm.OLS(Y, X).fit()
-    residual_var = result.mse_resid
-    return pd.Series([result.params[0], result.rsquared, residual_var])
-
-
 def nakagawa_r2(mod_fit):       # for mixed LM
     var_f = np.var(mod_fit.fittedvalues, ddof=1)   # variance explained by fixed effects, ddof = divides by n-1 (sample variance, unbiased)
     var_r = mod_fit.cov_re.iloc[0, 0]              # random intercept variance
@@ -60,4 +51,14 @@ def detrend_group(df, column, newname, time_column="year", log_transform=False):
     return df
 
 
-__all__ = ["pearson_corr", "regress", "nakagawa_r2", "detrend_group"]
+# def regress(data, yvar, xvars):
+#     Y = data[yvar]
+#     X = data[xvars]
+#     X['intercept'] = 1.
+#     result = sm.OLS(Y, X).fit()
+#     residual_var = result.mse_resid
+#     return pd.Series([result.params[0], result.rsquared, residual_var])
+
+
+
+__all__ = ["pearson_corr", "nakagawa_r2", "detrend_group"]
