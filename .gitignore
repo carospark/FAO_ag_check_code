@@ -12,6 +12,7 @@ __pycache__
 
 # folder
 MUSTDO/
+data/UNUSED/
 
 # vs code
 .vscode
