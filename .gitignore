@@ -8,7 +8,7 @@ __pycache__
 # Jupyter
 .ipynb_checkpoints/
 .DS_Store
-.ipynb_checkpoints/
+.jupyter/desktop-workspaces
 
 # folder
 MUSTDO/
