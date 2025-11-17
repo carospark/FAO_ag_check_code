@@ -1,7 +1,6 @@
-from pkg import first_clean
+from pkg import first_clean, fxs 
 from pathlib import Path
 import pandas as pd
-import fxs  
 
 if __name__ == "__main__":
     BASE = Path("/path/to/data_root")   # parent dir that contains per-country folders
