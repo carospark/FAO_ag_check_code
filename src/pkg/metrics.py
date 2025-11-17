@@ -19,8 +19,8 @@ def nakagawa_r2(mod_fit):       # for mixed LM
     marginal_r2   = var_f / (var_f + var_r + var_e)
     conditional_r2 = (var_f + var_r) / (var_f + var_r + var_e)
 
-    print("Marginal R² =", marginal_r2)
-    print("Conditional R² =", conditional_r2)
+    # print("Marginal R² =", marginal_r2); print("Conditional R² =", conditional_r2)
+    return(marginal_r2, conditional_r2)
 
 
 def detrend_group(df, column, newname, time_column="year", log_transform=False):

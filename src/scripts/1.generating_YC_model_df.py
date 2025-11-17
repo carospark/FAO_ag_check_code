@@ -1,3 +1,4 @@
+from pathlib import Path
 from pkg import first_clean, fetch_ag_covariates, flexible_merge, detrend_group, pearson_corr
 from functools import reduce
 import pandas as pd
@@ -5,8 +6,8 @@ import os
 
 ### run only if you want to regenerate satellite-based covariates. takes a long time!
 def agricultural_covariates():
-    path = "SET PATH HERE"
-    allcountries = first_clean(path)
+    BASE = Path("/path/to/data_root")   # parent dir that contains per-country folders
+    allcountries = first_clean(BASE)
 
     combined= pd.DataFrame()
 
