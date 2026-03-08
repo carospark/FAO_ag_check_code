@@ -156,6 +156,7 @@ regs = res_comb[['cropname', 'country', 'adj_r2', 'coef_sm_dt', 'model']
 wb_class = pd.read_csv("./data/wb_classification.csv")[['iso_a3', "class"]]
 regs= regs.merge(wb_class, how="left", on="iso_a3")
 regs = regs.groupby(['iso_a3', 'model']).mean('adj_r2').reset_index()
+#regs.to_csv("./data/fig4_adjr2.csv")
 
 # %%
 
