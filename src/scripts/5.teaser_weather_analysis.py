@@ -5,7 +5,9 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import scipy.stats as st
-from pkg import detrend_group, plot_map 
+from pkg import detrend_group, plot_map, plot_map_hatch
+from scipy.stats import norm
+
 
 # %%
 def safe_regress(data, formula=None, yvar=None, xvars=None, ci=None):
@@ -153,20 +155,74 @@ regs = res_comb[['cropname', 'country', 'adj_r2', 'coef_sm_dt', 'model']
                                                     ].merge(country_key[["iso_a3", "country"]], how="left", on="country")
 wb_class = pd.read_csv("./data/wb_classification.csv")[['iso_a3', "class"]]
 regs= regs.merge(wb_class, how="left", on="iso_a3")
-
+regs = regs.groupby(['iso_a3', 'model']).mean('adj_r2').reset_index()
 
 # %%
 
 plot_map(regs[regs['model']=="Survey"], column="adj_r2", 
          title="Survey yield variability explainable by SM and TMAX", 
          cbar_label="Average adjusted R2", cmap="plasma_r", vmin=0, vmax=1,
-         filename="survey_weather")
+         filename="adj_r2_census_allcrops")
 
 # %%
 
 plot_map(regs[regs['model']=="Satellite"], column="adj_r2", 
          title="Satellite yield variability explainable by SM and TMAX", 
          cbar_label="Average adjusted R2", cmap="plasma_r", vmin=0, vmax=1,
-         filename="satellite_weather")
+         filename="adj_r2_csif_allcrops")
 
+
+## SM maps
+
+regs_sm = res_comb[['cropname', 'country', 'coef_sm_dt', 'pval_sm_dt', 'model']
+                                                    ].merge(country_key[["iso_a3", "country"]], how="left", on="country")
+wb_class = pd.read_csv("./data/wb_classification.csv")[['iso_a3', "class"]]
+regs_sm= regs_sm.merge(wb_class, how="left", on="iso_a3")
+
+df = regs_sm.copy() 
+
+# recover t-stat
+df['t'] = norm.ppf(1 - df['pval_sm_dt']/2)
+# recover standard error
+df['se'] = np.abs(df['coef_sm_dt'] / df['t'])
+# inverse variance weight
+df['w'] = 1 / df['se']**2
+
+country_coef = (
+    df.groupby(['iso_a3', 'model'])
+      .apply(lambda g: np.sum(g.coef_sm_dt * g.w) / np.sum(g.w))
+      .rename('coef_sm_dt')
+)
+
+def combine_p(g):
+    z = np.sign(g.coef_sm_dt) * norm.ppf(1 - g.pval_sm_dt/2)
+    zc = np.sum(z * np.sqrt(g.w)) / np.sqrt(np.sum(g.w))
+    return 2*(1 - norm.cdf(abs(zc)))
+
+country_p = df.groupby(['iso_a3', 'model']).apply(combine_p).rename('pval_sm_dt')
+
+country_sm = pd.concat([country_coef, country_p], axis=1).reset_index()
+
+
+plot_map_hatch(
+    country_sm[country_sm['model']=="Satellite"] ,
+    column="coef_sm_dt",
+    title="SM coefficient on survey yield",
+    cbar_label="SM coefficient (dt)",
+    cmap="plasma_r",
+    vmin=0, vmax=10,
+    filename="satellite_weather_sm",
+    hatch_col="pval_sm_dt"
+)
+
+plot_map_hatch(
+    country_sm[country_sm['model']=="Survey"] ,
+    column="coef_sm_dt",
+    title="SM coefficient on survey yield",
+    cbar_label="SM coefficient (dt)",
+    cmap="plasma_r",
+    vmin=0, vmax=10,
+    filename="survey_weather_sm",
+    hatch_col="pval_sm_dt"
+)
 

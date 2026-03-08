@@ -125,6 +125,45 @@ def plot_map(data, column, title, cbar_label, cmap, filename, vmin=None, vmax=No
     plt.close()
 
 
-__all__ = ["annotate_corr", "plot_yield_secondary", "plot_twin_lines", "plot_map"]
+
+def plot_map_hatch(data, column, title, cbar_label, cmap, filename, vmin=None, vmax=None,
+                   hatch_col=None, hatch_thresh=0.05, hatch_pattern="xx", **kwargs):
+    countries = clean_map_gpd()
+    merged = countries.merge(data, how="left", on="iso_a3")
+
+    fig, ax = plt.subplots(1, 1, figsize=(20, 15))
+
+    plot_args = dict(column=column, ax=ax, legend=True, cmap=cmap, vmin=vmin, vmax=vmax,
+                     missing_kwds={'color': 'lightgrey'})
+    
+    if is_numeric_dtype(merged[column]):
+        plot_args["legend_kwds"] = {'label': cbar_label,
+                        'orientation': "horizontal", 'pad': -0.01}
+
+    plot_args.update(kwargs)
+    merged.plot(**plot_args)
+    ax.set_title(title)
+    ax.set_axis_off()
+
+    if hatch_col is not None and hatch_col in merged.columns:
+
+        sig = merged[merged[hatch_col] > hatch_thresh]
+
+        sig.plot(
+            ax=ax,
+            facecolor="none",
+            edgecolor="black",   # hatch color
+            linewidth=0,
+            hatch=hatch_pattern,
+            zorder=5
+        )
+
+    plt.savefig(f"./plots/{filename}.pdf", bbox_inches='tight')
+    plt.show()
+    plt.close()
+
+
+
+__all__ = ["annotate_corr", "plot_yield_secondary", "plot_twin_lines", "plot_map", "plot_map_hatch"]
 
 
