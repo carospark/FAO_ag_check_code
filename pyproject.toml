@@ -13,8 +13,9 @@ dependencies = [
     "numpy",
     "matplotlib",
     "seaborn",
-    "geopandas", 
-    "statsmodels" ]
+    "geopandas",
+    "statsmodels",
+    "scipy" ]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

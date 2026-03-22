@@ -208,9 +208,9 @@ country_sm = pd.concat([country_coef, country_p], axis=1).reset_index()
 plot_map_hatch(
     country_sm[country_sm['model']=="Satellite"] ,
     column="coef_sm_dt",
-    title="SM coefficient on survey yield",
+    title="SM coefficient on satellite yield",
     cbar_label="SM coefficient (dt)",
-    cmap="plasma_r",
+    cmap="Blues",
     vmin=0, vmax=10,
     filename="satellite_weather_sm",
     hatch_col="pval_sm_dt"
@@ -221,7 +221,7 @@ plot_map_hatch(
     column="coef_sm_dt",
     title="SM coefficient on survey yield",
     cbar_label="SM coefficient (dt)",
-    cmap="plasma_r",
+    cmap="Blues",
     vmin=0, vmax=10,
     filename="survey_weather_sm",
     hatch_col="pval_sm_dt"
