@@ -139,12 +139,6 @@ table[cols_to_clean] = table[cols_to_clean].replace(r"\s*\([^)]*\)", "", regex=T
 
 print(table.to_latex())
 
-# %%
-full_table = nice_table.replace(r"(\d+\.\d+)\s\(([^)]+)\)", r"\\makecell{\1 \\\\ (\2)}", regex=True)
-full_table = full_table.replace("%", r"\\%", regex=True)
-
-print(full_table.to_latex(escape=False))
-
 # %% [markdown]
 # ### country map
 
@@ -226,4 +220,175 @@ plot_map_hatch(
     filename="survey_weather_sm",
     hatch_col="pval_sm_dt"
 )
+
+
+# %% [markdown]
+# ### Figure 5: Satellite-survey weather-explainability gap vs. GDP per capita
+
+# %%
+import matplotlib.ticker as mticker
+import pycountry
+
+
+def iso2_to_iso3(iso2):
+    try:
+        return pycountry.countries.get(alpha_2=iso2).alpha_3
+    except Exception:
+        return None
+
+
+fig5 = regs.copy()
+gdp = pd.DataFrame(pd.read_csv("./data/wb_gdp_per_cap.csv")[['iso_a3', 'value']])
+fig5df = pd.merge(fig5, gdp, on="iso_a3")
+
+wide = fig5df.pivot(index=['iso_a3', 'value'], columns='model', values='adj_r2').reset_index()
+wide.columns.name = None
+wide = wide.rename(columns={'value': 'gdp_per_cap'})
+wide['diff'] = wide['Satellite'] - wide['Survey']
+wide['log_gdp'] = np.log(wide['gdp_per_cap'])
+
+centroids = pd.read_csv(
+    "https://raw.githubusercontent.com/gavinr/world-countries-centroids/master/dist/countries.csv"
+)
+centroids['iso_a3'] = centroids['ISO'].apply(iso2_to_iso3)
+centroids = centroids.dropna(subset=['iso_a3'])
+
+wide = wide.merge(centroids[['iso_a3', 'latitude']], on='iso_a3', how='left')
+wide['tropical'] = wide['latitude'].abs() <= 23.5
+
+mask = np.isfinite(wide['log_gdp']) & np.isfinite(wide['diff'])
+wide = wide[mask].copy()
+
+# %%
+def _stars(p):
+    if p < 0.001: return '***'
+    if p < 0.01:  return '**'
+    if p < 0.05:  return '*'
+    if p < 0.1:   return '+'
+    return ''
+
+def _p_disp(p):
+    if p < 0.001: return r"<0.001"
+    return f"{p:.3f}".rstrip('0').rstrip('.')
+
+# Overall regression
+X = sm.add_constant(wide['log_gdp'])
+m_all = sm.OLS(wide['diff'], X).fit()
+
+# By tropical status
+m_by_group = {}
+for group, label in [(True, 'Tropical'), (False, 'Non-tropical')]:
+    sub = wide[wide['tropical'] == group].copy()
+    sub = sub[np.isfinite(sub['log_gdp']) & np.isfinite(sub['diff'])]
+    X_ = sm.add_constant(sub['log_gdp'])
+    m_by_group[label] = (sm.OLS(sub['diff'], X_).fit(), len(sub))
+
+# Joint model with tropical dummy
+wide['tropical_int'] = wide['tropical'].astype(int)
+X2 = sm.add_constant(wide[['log_gdp', 'tropical_int']])
+m_joint = sm.OLS(wide['diff'], X2).fit()
+
+# ---------- LaTeX table: univariate regressions of (Sat-Survey gap) on log GDP ----------
+univ_rows = [
+    ("Overall",       m_all,                        len(wide)),
+    ("Tropical",      m_by_group['Tropical'][0],    m_by_group['Tropical'][1]),
+    ("Non-tropical",  m_by_group['Non-tropical'][0], m_by_group['Non-tropical'][1]),
+]
+
+latex_lines = [
+    r"\begin{table}[!ht]",
+    r"\centering",
+    r"\begin{tabular}{l r r r r r}",
+    r"\toprule",
+    r"\multicolumn{6}{c}{Univariate OLS: (Satellite $R^2$ $-$ Survey $R^2$) $\sim$ log GDP per capita} \\",
+    r"\midrule",
+    r"\textbf{Sample} & \textbf{$\beta_{\log\,GDP}$} & \textbf{SE} & \textbf{CI} & \textbf{p} & \textbf{N} \\",
+    r"\midrule",
+]
+for label, m, n in univ_rows:
+    b   = m.params['log_gdp']
+    se  = m.bse['log_gdp']
+    lo, hi = m.conf_int().loc['log_gdp']
+    p   = m.pvalues['log_gdp']
+    latex_lines.append(
+        f"{label} & {b:.3f} {_stars(p)} & {se:.3f} & {lo:.3f} -- {hi:.3f} & {_p_disp(p)} & {n} \\\\"
+    )
+latex_lines += [
+    r"\bottomrule",
+    r"\multicolumn{6}{l}{\footnotesize $^{+}$ p $<0.1$ \quad $^{*}$ p $<0.05$ \quad $^{**}$ p $<0.01$ \quad $^{***}$ p $<0.001$} \\",
+    r"\end{tabular}",
+    r"\end{table}",
+]
+print("\n".join(latex_lines))
+
+# ---------- LaTeX table: joint model (log GDP + tropical dummy) ----------
+joint_rows = [
+    ("Intercept",       'const'),
+    ("log GDP/capita",  'log_gdp'),
+    ("Tropical (1/0)",  'tropical_int'),
+]
+
+latex_lines = [
+    r"",
+    r"\begin{table}[!ht]",
+    r"\centering",
+    r"\begin{tabular}{l r r r r}",
+    r"\toprule",
+    r"\multicolumn{5}{c}{Joint OLS: (Satellite $R^2$ $-$ Survey $R^2$) $\sim$ log GDP $+$ Tropical} \\",
+    r"\midrule",
+    r"\textbf{Predictor} & \textbf{Estimate} & \textbf{SE} & \textbf{CI} & \textbf{p} \\",
+    r"\midrule",
+]
+for label, term in joint_rows:
+    b  = m_joint.params[term]
+    se = m_joint.bse[term]
+    lo, hi = m_joint.conf_int().loc[term]
+    p  = m_joint.pvalues[term]
+    latex_lines.append(
+        f"{label} & {b:.3f} {_stars(p)} & {se:.3f} & {lo:.3f} -- {hi:.3f} & {_p_disp(p)} \\\\"
+    )
+latex_lines += [
+    r"\midrule",
+    fr"$R^2$ / Adj $R^2$ & {m_joint.rsquared:.3f} / {m_joint.rsquared_adj:.3f} & & & \\",
+    fr"F-statistic ({int(m_joint.df_model)}, {int(m_joint.df_resid)}) & {m_joint.fvalue:.2f} & & & p = {_p_disp(m_joint.f_pvalue)} \\",
+    fr"Observations & {int(m_joint.nobs)} & & & \\",
+    r"\bottomrule",
+    r"\multicolumn{5}{l}{\footnotesize $^{+}$ p $<0.1$ \quad $^{*}$ p $<0.05$ \quad $^{**}$ p $<0.01$ \quad $^{***}$ p $<0.001$} \\",
+    r"\end{tabular}",
+    r"\end{table}",
+]
+print("\n".join(latex_lines))
+
+# %%
+fig, ax = plt.subplots(figsize=(7, 5))
+
+for trop, label, color in [(True, 'Tropical', 'firebrick'), (False, 'Non-tropical', 'gray')]:
+    sub = wide[wide['tropical'] == trop]
+    ax.scatter(sub['gdp_per_cap'], sub['diff'], alpha=0.5, s=25,
+               color=color, linewidths=0, label=label)
+
+x_range = np.linspace(wide['log_gdp'].min(), wide['log_gdp'].max(), 300)
+for trop, color in [(True, 'firebrick'), (False, 'gray')]:
+    sub = wide[wide['tropical'] == trop]
+    X_ = sm.add_constant(sub['log_gdp'])
+    m = sm.OLS(sub['diff'], X_).fit()
+    y_hat = m.params['const'] + m.params['log_gdp'] * x_range
+    ax.plot(np.exp(x_range), y_hat, color=color, linewidth=1.8)
+
+y_hat_all = m_all.params['const'] + m_all.params['log_gdp'] * x_range
+ax.plot(np.exp(x_range), y_hat_all, color='black', linewidth=1.8,
+        linestyle='--', label='All countries')
+
+ax.set_xscale('log')
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda x, _: f'{int(x):,}'))
+ax.axhline(0, color='black', linewidth=0.8, linestyle=':')
+
+ax.set_xlabel('GDP per capita (log scale, USD)', fontsize=12)
+ax.set_ylabel('Satellite R² − Survey R²\n(avg. across crops)', fontsize=12)
+ax.set_title('Satellite–survey weather explainability gap\nvs. GDP per capita', fontsize=13)
+ax.legend(fontsize=10)
+
+plt.tight_layout()
+plt.savefig('./plots/fig5_gdp_scatter.pdf')
+plt.show()
 

@@ -37,7 +37,7 @@ def plot_yield_secondary(data, **kwargs):
 
 
 
-def plot_twin_lines(data, col, col_wrap, filename, grid_kwargs=None, plot_kwargs=None, col_order=None, fl=None):
+def plot_twin_lines(data, col, col_wrap, filename, grid_kwargs=None, plot_kwargs=None, col_order=None, fl=None, subtitles=None):
     data.columns = data.columns.str.lower()
 
     if col_order is None:
@@ -81,7 +81,14 @@ def plot_twin_lines(data, col, col_wrap, filename, grid_kwargs=None, plot_kwargs
     g.map_dataframe(annotate_corr)
     g.map_dataframe(plot_yield_secondary)
     g.set_axis_labels("", "")
-    g.set_titles(col_template="{col_name}", size=18)
+    if subtitles:
+        order = list(col_order) if col_order is not None else g.col_names
+        for ax, val in zip(g.axes.flat, order):
+            sub = subtitles.get(val, "")
+            title = f"{val}\n{sub}" if sub else str(val)
+            ax.set_title(title, size=18)
+    else:
+        g.set_titles(col_template="{col_name}", size=18)
 
     g.fig.text(0.5, 0.035, 'Year', ha='center', va='center')
     g.fig.text(0.03, 0.5, 'Satellite-derived yields (log, dt)', ha='center', va='center',

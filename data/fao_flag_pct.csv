@@ -1,0 +1,1963 @@
+iso_a3,cropname,n_total,n_flagged,flag_pct
+AFG,Barley,24,0,0.0
+AFG,Maize,24,0,0.0
+AFG,Millet,24,11,0.4583333333333333
+AFG,Potatoes,24,0,0.0
+AFG,Pulses nes,24,19,0.7916666666666666
+AFG,"Rice, paddy",24,0,0.0
+AFG,Seed cotton,24,3,0.125
+AFG,Soybeans,2,0,0.0
+AFG,Sugar beet,24,4,0.16666666666666666
+AFG,Sunflower seed,24,20,0.8333333333333334
+AFG,Wheat,24,0,0.0
+AGO,Cassava,24,0,0.0
+AGO,"Groundnuts, with shell",24,0,0.0
+AGO,Maize,24,0,0.0
+AGO,Millet,24,4,0.16666666666666666
+AGO,Potatoes,24,0,0.0
+AGO,"Rice, paddy",24,0,0.0
+AGO,Seed cotton,24,24,1.0
+AGO,Sorghum,24,7,0.2916666666666667
+AGO,Soybeans,24,7,0.2916666666666667
+AGO,Sunflower seed,24,24,1.0
+AGO,Sweet potatoes,24,0,0.0
+AGO,Wheat,24,22,0.9166666666666666
+ALB,Barley,24,0,0.0
+ALB,Maize,24,0,0.0
+ALB,Oats,24,0,0.0
+ALB,Potatoes,24,0,0.0
+ALB,Pulses nes,24,24,1.0
+ALB,Rye,24,0,0.0
+ALB,Seed cotton,24,24,1.0
+ALB,Soybeans,24,0,0.0
+ALB,Sugar beet,24,7,0.2916666666666667
+ALB,Sunflower seed,24,0,0.0
+ALB,Wheat,24,0,0.0
+ARE,Barley,4,0,0.0
+ARE,Maize,24,8,0.3333333333333333
+ARE,Potatoes,24,5,0.20833333333333334
+ARE,Wheat,9,1,0.1111111111111111
+ARG,Barley,24,0,0.0
+ARG,Cassava,24,24,1.0
+ARG,"Groundnuts, with shell",24,0,0.0
+ARG,Maize,24,0,0.0
+ARG,Millet,24,0,0.0
+ARG,Oats,24,0,0.0
+ARG,Potatoes,24,22,0.9166666666666666
+ARG,Rapeseed,24,0,0.0
+ARG,"Rice, paddy",24,0,0.0
+ARG,Rye,24,0,0.0
+ARG,Seed cotton,24,0,0.0
+ARG,Sorghum,24,0,0.0
+ARG,Soybeans,24,0,0.0
+ARG,Sunflower seed,24,0,0.0
+ARG,Sweet potatoes,24,23,0.9583333333333334
+ARG,Wheat,24,0,0.0
+ARM,Barley,24,0,0.0
+ARM,Maize,24,0,0.0
+ARM,Oats,24,0,0.0
+ARM,Potatoes,24,0,0.0
+ARM,Pulses nes,21,7,0.3333333333333333
+ARM,Rye,24,0,0.0
+ARM,Sugar beet,24,22,0.9166666666666666
+ARM,Wheat,24,0,0.0
+ATG,Cassava,24,20,0.8333333333333334
+ATG,Maize,24,24,1.0
+ATG,Seed cotton,24,24,1.0
+ATG,Sweet potatoes,24,20,0.8333333333333334
+ATG,Yams,24,24,1.0
+AUS,Barley,24,0,0.0
+AUS,"Groundnuts, with shell",24,1,0.041666666666666664
+AUS,Maize,24,0,0.0
+AUS,Millet,24,15,0.625
+AUS,Oats,24,0,0.0
+AUS,Potatoes,24,3,0.125
+AUS,Rapeseed,24,0,0.0
+AUS,"Rice, paddy",24,0,0.0
+AUS,Rye,24,14,0.5833333333333334
+AUS,Seed cotton,24,6,0.25
+AUS,Sorghum,24,0,0.0
+AUS,Soybeans,24,0,0.0
+AUS,Sugar beet,3,3,1.0
+AUS,Sunflower seed,24,2,0.08333333333333333
+AUS,Sweet potatoes,24,19,0.7916666666666666
+AUS,Wheat,24,0,0.0
+AUT,Barley,24,0,0.0
+AUT,Maize,24,0,0.0
+AUT,Millet,18,5,0.2777777777777778
+AUT,Oats,24,0,0.0
+AUT,Potatoes,24,0,0.0
+AUT,Pulses nes,24,1,0.041666666666666664
+AUT,Rapeseed,24,0,0.0
+AUT,Rye,24,0,0.0
+AUT,Sorghum,14,0,0.0
+AUT,Soybeans,24,0,0.0
+AUT,Sugar beet,24,0,0.0
+AUT,Sunflower seed,24,0,0.0
+AUT,Wheat,24,0,0.0
+AZE,Barley,24,0,0.0
+AZE,Maize,24,0,0.0
+AZE,Millet,21,1,0.047619047619047616
+AZE,Oats,24,0,0.0
+AZE,Potatoes,24,0,0.0
+AZE,Pulses nes,24,0,0.0
+AZE,"Rice, paddy",24,0,0.0
+AZE,Rye,24,0,0.0
+AZE,Seed cotton,24,0,0.0
+AZE,Sorghum,15,2,0.13333333333333333
+AZE,Soybeans,22,17,0.7727272727272727
+AZE,Sugar beet,24,0,0.0
+AZE,Sunflower seed,24,0,0.0
+AZE,Wheat,24,0,0.0
+BDI,Cassava,24,15,0.625
+BDI,"Groundnuts, with shell",24,17,0.7083333333333334
+BDI,Maize,24,15,0.625
+BDI,Millet,24,22,0.9166666666666666
+BDI,Potatoes,24,16,0.6666666666666666
+BDI,"Rice, paddy",24,16,0.6666666666666666
+BDI,Seed cotton,24,13,0.5416666666666666
+BDI,Sorghum,24,12,0.5
+BDI,Soybeans,24,18,0.75
+BDI,Sweet potatoes,24,15,0.625
+BDI,Wheat,24,16,0.6666666666666666
+BDI,Yams,24,19,0.7916666666666666
+BEL,Barley,24,0,0.0
+BEL,Maize,24,0,0.0
+BEL,Oats,24,0,0.0
+BEL,Potatoes,24,0,0.0
+BEL,Pulses nes,6,0,0.0
+BEL,Rapeseed,24,0,0.0
+BEL,Rye,24,0,0.0
+BEL,Sugar beet,24,0,0.0
+BEL,Wheat,24,0,0.0
+BEN,Cassava,24,0,0.0
+BEN,"Groundnuts, with shell",24,0,0.0
+BEN,Maize,24,0,0.0
+BEN,Millet,24,0,0.0
+BEN,Potatoes,22,9,0.4090909090909091
+BEN,"Rice, paddy",24,0,0.0
+BEN,Seed cotton,24,4,0.16666666666666666
+BEN,Sorghum,24,0,0.0
+BEN,Soybeans,24,0,0.0
+BEN,Sweet potatoes,24,0,0.0
+BEN,Yams,24,0,0.0
+BFA,Cassava,24,24,1.0
+BFA,"Groundnuts, with shell",24,0,0.0
+BFA,Maize,24,0,0.0
+BFA,Millet,24,0,0.0
+BFA,Potatoes,24,20,0.8333333333333334
+BFA,Pulses nes,24,24,1.0
+BFA,"Rice, paddy",24,0,0.0
+BFA,Seed cotton,24,0,0.0
+BFA,Sorghum,24,0,0.0
+BFA,Soybeans,24,1,0.041666666666666664
+BFA,Sweet potatoes,24,2,0.08333333333333333
+BFA,Yams,24,0,0.0
+BGD,Barley,24,0,0.0
+BGD,"Groundnuts, with shell",24,0,0.0
+BGD,Maize,24,0,0.0
+BGD,Millet,24,6,0.25
+BGD,Potatoes,24,0,0.0
+BGD,Pulses nes,24,0,0.0
+BGD,Rapeseed,24,0,0.0
+BGD,"Rice, paddy",24,0,0.0
+BGD,Seed cotton,24,14,0.5833333333333334
+BGD,Sorghum,24,0,0.0
+BGD,Soybeans,19,0,0.0
+BGD,Sweet potatoes,24,0,0.0
+BGD,Wheat,24,0,0.0
+BGR,Barley,24,0,0.0
+BGR,"Groundnuts, with shell",18,1,0.05555555555555555
+BGR,Maize,24,1,0.041666666666666664
+BGR,Millet,18,3,0.16666666666666666
+BGR,Oats,24,0,0.0
+BGR,Potatoes,24,0,0.0
+BGR,Pulses nes,18,10,0.5555555555555556
+BGR,Rapeseed,24,1,0.041666666666666664
+BGR,"Rice, paddy",24,0,0.0
+BGR,Rye,24,1,0.041666666666666664
+BGR,Seed cotton,22,0,0.0
+BGR,Sorghum,24,2,0.08333333333333333
+BGR,Soybeans,24,0,0.0
+BGR,Sugar beet,8,0,0.0
+BGR,Sunflower seed,24,0,0.0
+BGR,Wheat,24,0,0.0
+BHR,Potatoes,24,10,0.4166666666666667
+BHR,Pulses nes,21,18,0.8571428571428571
+BHS,Cassava,24,19,0.7916666666666666
+BHS,Maize,24,21,0.875
+BHS,Sweet potatoes,24,24,1.0
+BIH,Barley,24,1,0.041666666666666664
+BIH,Maize,24,1,0.041666666666666664
+BIH,Oats,24,1,0.041666666666666664
+BIH,Potatoes,24,1,0.041666666666666664
+BIH,Rapeseed,24,1,0.041666666666666664
+BIH,Rye,24,1,0.041666666666666664
+BIH,Soybeans,24,1,0.041666666666666664
+BIH,Sugar beet,22,20,0.9090909090909091
+BIH,Sunflower seed,24,0,0.0
+BIH,Wheat,24,1,0.041666666666666664
+BLR,Barley,24,1,0.041666666666666664
+BLR,Maize,24,1,0.041666666666666664
+BLR,Millet,24,16,0.6666666666666666
+BLR,Oats,24,2,0.08333333333333333
+BLR,Potatoes,24,0,0.0
+BLR,Rapeseed,24,0,0.0
+BLR,Rye,24,1,0.041666666666666664
+BLR,Sugar beet,24,0,0.0
+BLR,Sunflower seed,24,0,0.0
+BLR,Wheat,24,2,0.08333333333333333
+BLZ,Cassava,24,1,0.041666666666666664
+BLZ,"Groundnuts, with shell",24,0,0.0
+BLZ,Maize,24,0,0.0
+BLZ,Potatoes,24,0,0.0
+BLZ,"Rice, paddy",24,0,0.0
+BLZ,Sorghum,24,0,0.0
+BLZ,Soybeans,24,0,0.0
+BLZ,Sweet potatoes,24,1,0.041666666666666664
+BLZ,Yams,24,1,0.041666666666666664
+BOL,Barley,24,0,0.0
+BOL,Cassava,24,0,0.0
+BOL,"Groundnuts, with shell",24,0,0.0
+BOL,Maize,24,0,0.0
+BOL,Oats,24,0,0.0
+BOL,Potatoes,24,0,0.0
+BOL,"Rice, paddy",24,0,0.0
+BOL,Rye,24,0,0.0
+BOL,Seed cotton,24,24,1.0
+BOL,Sorghum,24,0,0.0
+BOL,Soybeans,24,0,0.0
+BOL,Sunflower seed,24,0,0.0
+BOL,Sweet potatoes,24,0,0.0
+BOL,Wheat,24,0,0.0
+BRA,Barley,24,0,0.0
+BRA,Cassava,24,0,0.0
+BRA,"Groundnuts, with shell",24,0,0.0
+BRA,Maize,24,0,0.0
+BRA,Oats,24,0,0.0
+BRA,Potatoes,24,0,0.0
+BRA,Rapeseed,24,0,0.0
+BRA,"Rice, paddy",24,0,0.0
+BRA,Rye,24,0,0.0
+BRA,Seed cotton,24,0,0.0
+BRA,Sorghum,24,0,0.0
+BRA,Soybeans,24,0,0.0
+BRA,Sunflower seed,24,0,0.0
+BRA,Sweet potatoes,24,0,0.0
+BRA,Wheat,24,0,0.0
+BRA,Yams,24,24,1.0
+BRB,Cassava,24,21,0.875
+BRB,"Groundnuts, with shell",24,22,0.9166666666666666
+BRB,Maize,24,23,0.9583333333333334
+BRB,Pulses nes,24,24,1.0
+BRB,Sweet potatoes,24,21,0.875
+BRB,Yams,24,21,0.875
+BRN,Cassava,24,24,1.0
+BRN,"Rice, paddy",24,0,0.0
+BRN,Sweet potatoes,24,24,1.0
+BTN,Barley,24,1,0.041666666666666664
+BTN,Cassava,11,2,0.18181818181818182
+BTN,"Groundnuts, with shell",8,0,0.0
+BTN,Maize,24,1,0.041666666666666664
+BTN,Millet,24,1,0.041666666666666664
+BTN,Potatoes,24,1,0.041666666666666664
+BTN,Pulses nes,24,22,0.9166666666666666
+BTN,"Rice, paddy",24,2,0.08333333333333333
+BTN,Soybeans,24,6,0.25
+BTN,Sunflower seed,12,0,0.0
+BTN,Sweet potatoes,20,4,0.2
+BTN,Wheat,24,1,0.041666666666666664
+BTN,Yams,11,8,0.7272727272727273
+BWA,"Groundnuts, with shell",24,4,0.16666666666666666
+BWA,Maize,24,1,0.041666666666666664
+BWA,Millet,24,7,0.2916666666666667
+BWA,Potatoes,7,3,0.42857142857142855
+BWA,Pulses nes,24,8,0.3333333333333333
+BWA,Seed cotton,24,24,1.0
+BWA,Sorghum,24,10,0.4166666666666667
+BWA,Sunflower seed,24,8,0.3333333333333333
+BWA,Sweet potatoes,6,5,0.8333333333333334
+BWA,Wheat,15,7,0.4666666666666667
+CAF,Cassava,24,7,0.2916666666666667
+CAF,"Groundnuts, with shell",24,7,0.2916666666666667
+CAF,Maize,24,7,0.2916666666666667
+CAF,Millet,24,15,0.625
+CAF,Potatoes,24,24,1.0
+CAF,Pulses nes,24,24,1.0
+CAF,"Rice, paddy",24,7,0.2916666666666667
+CAF,Seed cotton,24,15,0.625
+CAF,Sorghum,24,8,0.3333333333333333
+CAF,Yams,24,24,1.0
+CAN,Barley,24,0,0.0
+CAN,Maize,24,0,0.0
+CAN,Oats,24,0,0.0
+CAN,Potatoes,24,0,0.0
+CAN,Rapeseed,24,0,0.0
+CAN,Rye,24,0,0.0
+CAN,Soybeans,24,0,0.0
+CAN,Sugar beet,24,0,0.0
+CAN,Sunflower seed,24,0,0.0
+CAN,Wheat,24,0,0.0
+CHE,Barley,24,0,0.0
+CHE,Maize,24,0,0.0
+CHE,Millet,15,0,0.0
+CHE,Oats,24,0,0.0
+CHE,Potatoes,24,0,0.0
+CHE,Rapeseed,24,0,0.0
+CHE,Rye,24,0,0.0
+CHE,Soybeans,24,0,0.0
+CHE,Sugar beet,24,0,0.0
+CHE,Sunflower seed,24,0,0.0
+CHE,Wheat,24,0,0.0
+CHL,Barley,24,0,0.0
+CHL,Maize,24,0,0.0
+CHL,Oats,24,0,0.0
+CHL,Potatoes,24,0,0.0
+CHL,Rapeseed,24,0,0.0
+CHL,"Rice, paddy",24,0,0.0
+CHL,Rye,24,7,0.2916666666666667
+CHL,Sugar beet,24,0,0.0
+CHL,Sunflower seed,24,0,0.0
+CHL,Sweet potatoes,24,24,1.0
+CHL,Wheat,24,0,0.0
+CHN,Barley,24,6,0.25
+CHN,Cassava,24,24,1.0
+CHN,"Groundnuts, with shell",24,0,0.0
+CHN,Maize,24,2,0.08333333333333333
+CHN,Millet,24,2,0.08333333333333333
+CHN,Oats,24,21,0.875
+CHN,Potatoes,24,10,0.4166666666666667
+CHN,Pulses nes,24,8,0.3333333333333333
+CHN,Rapeseed,24,0,0.0
+CHN,"Rice, paddy",24,0,0.0
+CHN,Rye,24,22,0.9166666666666666
+CHN,Seed cotton,24,5,0.20833333333333334
+CHN,Sorghum,24,2,0.08333333333333333
+CHN,Soybeans,24,1,0.041666666666666664
+CHN,Sugar beet,24,0,0.0
+CHN,Sunflower seed,24,1,0.041666666666666664
+CHN,Sweet potatoes,24,11,0.4583333333333333
+CHN,Wheat,24,0,0.0
+CIV,Cassava,24,11,0.4583333333333333
+CIV,"Groundnuts, with shell",24,11,0.4583333333333333
+CIV,Maize,24,11,0.4583333333333333
+CIV,Millet,24,12,0.5
+CIV,Pulses nes,24,24,1.0
+CIV,"Rice, paddy",24,11,0.4583333333333333
+CIV,Seed cotton,24,11,0.4583333333333333
+CIV,Sorghum,24,11,0.4583333333333333
+CIV,Soybeans,24,17,0.7083333333333334
+CIV,Sweet potatoes,24,11,0.4583333333333333
+CIV,Yams,24,11,0.4583333333333333
+CMR,Cassava,24,6,0.25
+CMR,"Groundnuts, with shell",24,1,0.041666666666666664
+CMR,Maize,24,0,0.0
+CMR,Millet,24,15,0.625
+CMR,Potatoes,24,11,0.4583333333333333
+CMR,Pulses nes,24,24,1.0
+CMR,"Rice, paddy",24,6,0.25
+CMR,Seed cotton,24,21,0.875
+CMR,Sorghum,24,16,0.6666666666666666
+CMR,Soybeans,24,4,0.16666666666666666
+CMR,Sweet potatoes,24,4,0.16666666666666666
+CMR,Wheat,24,24,1.0
+CMR,Yams,24,4,0.16666666666666666
+COD,Barley,24,24,1.0
+COD,Cassava,24,14,0.5833333333333334
+COD,"Groundnuts, with shell",24,13,0.5416666666666666
+COD,Maize,24,15,0.625
+COD,Millet,24,13,0.5416666666666666
+COD,Potatoes,24,13,0.5416666666666666
+COD,Pulses nes,24,21,0.875
+COD,"Rice, paddy",24,14,0.5833333333333334
+COD,Seed cotton,24,24,1.0
+COD,Sorghum,24,13,0.5416666666666666
+COD,Soybeans,24,14,0.5833333333333334
+COD,Sweet potatoes,24,14,0.5833333333333334
+COD,Wheat,24,10,0.4166666666666667
+COD,Yams,24,15,0.625
+COG,Cassava,24,21,0.875
+COG,"Groundnuts, with shell",24,21,0.875
+COG,Maize,24,16,0.6666666666666666
+COG,Millet,23,23,1.0
+COG,Potatoes,24,23,0.9583333333333334
+COG,"Rice, paddy",24,21,0.875
+COG,Sweet potatoes,24,23,0.9583333333333334
+COG,Yams,24,24,1.0
+COK,Cassava,21,21,1.0
+COK,Sweet potatoes,24,23,0.9583333333333334
+COL,Barley,24,0,0.0
+COL,Cassava,24,0,0.0
+COL,"Groundnuts, with shell",24,0,0.0
+COL,Maize,24,0,0.0
+COL,Potatoes,24,0,0.0
+COL,"Rice, paddy",24,0,0.0
+COL,Seed cotton,24,1,0.041666666666666664
+COL,Sorghum,24,0,0.0
+COL,Soybeans,24,0,0.0
+COL,Sugar beet,24,11,0.4583333333333333
+COL,Wheat,24,1,0.041666666666666664
+COL,Yams,24,0,0.0
+COM,Cassava,24,24,1.0
+COM,"Groundnuts, with shell",24,22,0.9166666666666666
+COM,Maize,24,24,1.0
+COM,Potatoes,24,24,1.0
+COM,Pulses nes,24,24,1.0
+COM,"Rice, paddy",24,24,1.0
+COM,Sweet potatoes,24,24,1.0
+COM,Yams,24,24,1.0
+CPV,Cassava,24,15,0.625
+CPV,"Groundnuts, with shell",5,2,0.4
+CPV,Maize,24,2,0.08333333333333333
+CPV,Potatoes,24,12,0.5
+CPV,Pulses nes,24,15,0.625
+CPV,Sweet potatoes,24,13,0.5416666666666666
+CRI,Cassava,24,2,0.08333333333333333
+CRI,"Groundnuts, with shell",24,24,1.0
+CRI,Maize,24,0,0.0
+CRI,Potatoes,24,0,0.0
+CRI,"Rice, paddy",24,0,0.0
+CRI,Seed cotton,24,24,1.0
+CRI,Sweet potatoes,24,24,1.0
+CRI,Yams,24,3,0.125
+CUB,Cassava,24,5,0.20833333333333334
+CUB,"Groundnuts, with shell",24,23,0.9583333333333334
+CUB,Maize,24,0,0.0
+CUB,Potatoes,24,0,0.0
+CUB,"Rice, paddy",24,0,0.0
+CUB,Sorghum,24,6,0.25
+CUB,Soybeans,3,3,1.0
+CUB,Sweet potatoes,24,0,0.0
+CUB,Yams,24,5,0.20833333333333334
+CYP,Barley,24,0,0.0
+CYP,"Groundnuts, with shell",18,0,0.0
+CYP,Oats,24,0,0.0
+CYP,Potatoes,24,0,0.0
+CYP,Pulses nes,24,0,0.0
+CYP,Wheat,24,0,0.0
+CZE,Barley,24,0,0.0
+CZE,Maize,24,0,0.0
+CZE,Millet,18,16,0.8888888888888888
+CZE,Oats,24,0,0.0
+CZE,Potatoes,24,0,0.0
+CZE,Pulses nes,24,2,0.08333333333333333
+CZE,Rapeseed,24,0,0.0
+CZE,Rye,24,0,0.0
+CZE,Soybeans,24,0,0.0
+CZE,Sugar beet,24,0,0.0
+CZE,Sunflower seed,24,0,0.0
+CZE,Wheat,24,0,0.0
+DEU,Barley,24,0,0.0
+DEU,Maize,24,0,0.0
+DEU,Oats,24,0,0.0
+DEU,Potatoes,24,0,0.0
+DEU,Pulses nes,18,18,1.0
+DEU,Rapeseed,24,0,0.0
+DEU,Rye,24,0,0.0
+DEU,Soybeans,21,2,0.09523809523809523
+DEU,Sugar beet,24,0,0.0
+DEU,Sunflower seed,24,0,0.0
+DEU,Wheat,24,0,0.0
+DJI,Maize,24,24,1.0
+DMA,Cassava,24,24,1.0
+DMA,Maize,24,24,1.0
+DMA,Potatoes,24,24,1.0
+DMA,Pulses nes,24,24,1.0
+DMA,Sweet potatoes,24,24,1.0
+DMA,Yams,24,24,1.0
+DNK,Barley,24,0,0.0
+DNK,Maize,14,0,0.0
+DNK,Oats,24,0,0.0
+DNK,Potatoes,24,0,0.0
+DNK,Pulses nes,18,0,0.0
+DNK,Rapeseed,24,0,0.0
+DNK,Rye,24,0,0.0
+DNK,Sugar beet,24,0,0.0
+DNK,Wheat,24,0,0.0
+DOM,Cassava,24,0,0.0
+DOM,"Groundnuts, with shell",24,0,0.0
+DOM,Maize,24,0,0.0
+DOM,Potatoes,24,0,0.0
+DOM,"Rice, paddy",24,2,0.08333333333333333
+DOM,Sorghum,24,0,0.0
+DOM,Sweet potatoes,24,0,0.0
+DOM,Yams,24,2,0.08333333333333333
+DZA,Barley,24,2,0.08333333333333333
+DZA,"Groundnuts, with shell",24,2,0.08333333333333333
+DZA,Maize,24,0,0.0
+DZA,Oats,24,0,0.0
+DZA,Potatoes,24,2,0.08333333333333333
+DZA,Pulses nes,24,8,0.3333333333333333
+DZA,Rapeseed,24,16,0.6666666666666666
+DZA,"Rice, paddy",24,24,1.0
+DZA,Seed cotton,24,24,1.0
+DZA,Sorghum,24,2,0.08333333333333333
+DZA,Sunflower seed,24,24,1.0
+DZA,Wheat,24,1,0.041666666666666664
+ECU,Barley,24,0,0.0
+ECU,Cassava,24,0,0.0
+ECU,"Groundnuts, with shell",24,18,0.75
+ECU,Maize,24,0,0.0
+ECU,Oats,24,20,0.8333333333333334
+ECU,Potatoes,24,0,0.0
+ECU,"Rice, paddy",24,0,0.0
+ECU,Rye,24,24,1.0
+ECU,Seed cotton,24,19,0.7916666666666666
+ECU,Sorghum,24,21,0.875
+ECU,Soybeans,24,0,0.0
+ECU,Sugar beet,24,18,0.75
+ECU,Sunflower seed,24,23,0.9583333333333334
+ECU,Sweet potatoes,24,18,0.75
+ECU,Wheat,24,0,0.0
+EGY,Barley,24,2,0.08333333333333333
+EGY,"Groundnuts, with shell",24,0,0.0
+EGY,Maize,24,0,0.0
+EGY,Potatoes,24,0,0.0
+EGY,Pulses nes,24,24,1.0
+EGY,"Rice, paddy",24,0,0.0
+EGY,Rye,24,24,1.0
+EGY,Seed cotton,24,4,0.16666666666666666
+EGY,Sorghum,24,0,0.0
+EGY,Soybeans,24,0,0.0
+EGY,Sugar beet,24,0,0.0
+EGY,Sunflower seed,24,0,0.0
+EGY,Sweet potatoes,24,1,0.041666666666666664
+EGY,Wheat,24,1,0.041666666666666664
+ERI,Barley,24,0,0.0
+ERI,"Groundnuts, with shell",24,17,0.7083333333333334
+ERI,Maize,24,0,0.0
+ERI,Millet,24,0,0.0
+ERI,Potatoes,24,16,0.6666666666666666
+ERI,Pulses nes,24,24,1.0
+ERI,Sorghum,24,0,0.0
+ERI,Wheat,24,0,0.0
+ESP,Barley,24,0,0.0
+ESP,"Groundnuts, with shell",18,5,0.2777777777777778
+ESP,Maize,24,0,0.0
+ESP,Millet,18,3,0.16666666666666666
+ESP,Oats,24,0,0.0
+ESP,Potatoes,24,0,0.0
+ESP,Pulses nes,24,2,0.08333333333333333
+ESP,Rapeseed,24,0,0.0
+ESP,"Rice, paddy",24,0,0.0
+ESP,Rye,24,0,0.0
+ESP,Seed cotton,23,1,0.043478260869565216
+ESP,Sorghum,24,0,0.0
+ESP,Soybeans,24,0,0.0
+ESP,Sugar beet,24,0,0.0
+ESP,Sunflower seed,24,0,0.0
+ESP,Sweet potatoes,18,0,0.0
+ESP,Wheat,24,0,0.0
+EST,Barley,24,0,0.0
+EST,Oats,24,0,0.0
+EST,Potatoes,24,0,0.0
+EST,Pulses nes,12,1,0.08333333333333333
+EST,Rapeseed,24,0,0.0
+EST,Rye,24,0,0.0
+EST,Wheat,24,0,0.0
+ETH,Barley,24,5,0.20833333333333334
+ETH,"Groundnuts, with shell",24,1,0.041666666666666664
+ETH,Maize,24,7,0.2916666666666667
+ETH,Millet,24,3,0.125
+ETH,Oats,24,6,0.25
+ETH,Potatoes,24,7,0.2916666666666667
+ETH,Pulses nes,24,9,0.375
+ETH,Rapeseed,24,5,0.20833333333333334
+ETH,"Rice, paddy",17,11,0.6470588235294118
+ETH,Seed cotton,24,22,0.9166666666666666
+ETH,Sorghum,24,8,0.3333333333333333
+ETH,Soybeans,24,10,0.4166666666666667
+ETH,Sunflower seed,17,1,0.058823529411764705
+ETH,Sweet potatoes,24,7,0.2916666666666667
+ETH,Wheat,24,8,0.3333333333333333
+ETH,Yams,11,1,0.09090909090909091
+F206,Cassava,12,12,1.0
+F206,"Groundnuts, with shell",12,0,0.0
+F206,Maize,12,2,0.16666666666666666
+F206,Millet,12,1,0.08333333333333333
+F206,Potatoes,12,1,0.08333333333333333
+F206,Pulses nes,12,12,1.0
+F206,"Rice, paddy",12,2,0.16666666666666666
+F206,Seed cotton,12,0,0.0
+F206,Sorghum,12,1,0.08333333333333333
+F206,Sunflower seed,12,1,0.08333333333333333
+F206,Sweet potatoes,12,3,0.25
+F206,Wheat,12,2,0.16666666666666666
+F206,Yams,12,12,1.0
+F351,Barley,24,6,0.25
+F351,Cassava,24,24,1.0
+F351,"Groundnuts, with shell",24,0,0.0
+F351,Maize,24,2,0.08333333333333333
+F351,Millet,24,2,0.08333333333333333
+F351,Oats,24,21,0.875
+F351,Potatoes,24,10,0.4166666666666667
+F351,Pulses nes,24,8,0.3333333333333333
+F351,Rapeseed,24,0,0.0
+F351,"Rice, paddy",24,0,0.0
+F351,Rye,24,22,0.9166666666666666
+F351,Seed cotton,24,5,0.20833333333333334
+F351,Sorghum,24,2,0.08333333333333333
+F351,Soybeans,24,1,0.041666666666666664
+F351,Sugar beet,24,0,0.0
+F351,Sunflower seed,24,1,0.041666666666666664
+F351,Sweet potatoes,24,15,0.625
+F351,Wheat,24,0,0.0
+FIN,Barley,24,0,0.0
+FIN,Oats,24,0,0.0
+FIN,Potatoes,24,0,0.0
+FIN,Rapeseed,24,0,0.0
+FIN,Rye,24,0,0.0
+FIN,Sugar beet,24,0,0.0
+FIN,Wheat,24,0,0.0
+FJI,Cassava,24,7,0.2916666666666667
+FJI,"Groundnuts, with shell",24,24,1.0
+FJI,Maize,24,7,0.2916666666666667
+FJI,Potatoes,20,10,0.5
+FJI,Pulses nes,24,12,0.5
+FJI,"Rice, paddy",24,6,0.25
+FJI,Sorghum,24,24,1.0
+FJI,Sweet potatoes,24,4,0.16666666666666666
+FJI,Yams,24,3,0.125
+FRA,Barley,24,0,0.0
+FRA,Maize,24,0,0.0
+FRA,Millet,17,17,1.0
+FRA,Oats,24,0,0.0
+FRA,Potatoes,24,0,0.0
+FRA,Pulses nes,24,15,0.625
+FRA,Rapeseed,24,0,0.0
+FRA,"Rice, paddy",24,0,0.0
+FRA,Rye,24,0,0.0
+FRA,Sorghum,24,0,0.0
+FRA,Soybeans,24,0,0.0
+FRA,Sugar beet,24,0,0.0
+FRA,Sunflower seed,24,0,0.0
+FRA,Wheat,24,0,0.0
+FRO,Potatoes,24,24,1.0
+FSM,Cassava,24,24,1.0
+FSM,Maize,24,24,1.0
+FSM,"Rice, paddy",24,24,1.0
+FSM,Sorghum,24,24,1.0
+FSM,Sweet potatoes,24,24,1.0
+GAB,Cassava,24,24,1.0
+GAB,"Groundnuts, with shell",24,24,1.0
+GAB,Maize,24,24,1.0
+GAB,Pulses nes,24,24,1.0
+GAB,"Rice, paddy",24,24,1.0
+GAB,Soybeans,24,24,1.0
+GAB,Sweet potatoes,24,24,1.0
+GAB,Yams,24,24,1.0
+GBR,Barley,24,0,0.0
+GBR,Oats,24,0,0.0
+GBR,Potatoes,24,0,0.0
+GBR,Pulses nes,24,11,0.4583333333333333
+GBR,Rapeseed,24,0,0.0
+GBR,Rye,24,0,0.0
+GBR,Sugar beet,24,0,0.0
+GBR,Wheat,24,0,0.0
+GEO,Barley,24,0,0.0
+GEO,"Groundnuts, with shell",24,17,0.7083333333333334
+GEO,Maize,24,0,0.0
+GEO,Oats,24,1,0.041666666666666664
+GEO,Potatoes,24,0,0.0
+GEO,Rye,22,13,0.5909090909090909
+GEO,Soybeans,24,13,0.5416666666666666
+GEO,Sugar beet,4,2,0.5
+GEO,Sunflower seed,24,1,0.041666666666666664
+GEO,Wheat,24,0,0.0
+GHA,Cassava,24,6,0.25
+GHA,"Groundnuts, with shell",24,1,0.041666666666666664
+GHA,Maize,24,1,0.041666666666666664
+GHA,Millet,24,3,0.125
+GHA,Oats,24,24,1.0
+GHA,Pulses nes,24,24,1.0
+GHA,"Rice, paddy",24,3,0.125
+GHA,Seed cotton,24,22,0.9166666666666666
+GHA,Sorghum,24,4,0.16666666666666666
+GHA,Soybeans,16,5,0.3125
+GHA,Sweet potatoes,24,24,1.0
+GHA,Yams,24,3,0.125
+GIN,Cassava,24,1,0.041666666666666664
+GIN,"Groundnuts, with shell",24,0,0.0
+GIN,Maize,24,0,0.0
+GIN,Millet,24,17,0.7083333333333334
+GIN,Potatoes,21,13,0.6190476190476191
+GIN,Pulses nes,24,24,1.0
+GIN,"Rice, paddy",24,3,0.125
+GIN,Seed cotton,24,24,1.0
+GIN,Sorghum,24,17,0.7083333333333334
+GIN,Sweet potatoes,24,16,0.6666666666666666
+GIN,Yams,24,16,0.6666666666666666
+GLP,Cassava,7,5,0.7142857142857143
+GLP,Pulses nes,7,5,0.7142857142857143
+GLP,Sweet potatoes,7,5,0.7142857142857143
+GLP,Yams,7,5,0.7142857142857143
+GMB,Cassava,24,24,1.0
+GMB,"Groundnuts, with shell",24,5,0.20833333333333334
+GMB,Maize,24,6,0.25
+GMB,Millet,24,6,0.25
+GMB,Pulses nes,16,16,1.0
+GMB,"Rice, paddy",24,9,0.375
+GMB,Seed cotton,24,22,0.9166666666666666
+GMB,Sorghum,24,6,0.25
+GNB,Cassava,24,17,0.7083333333333334
+GNB,"Groundnuts, with shell",24,16,0.6666666666666666
+GNB,Maize,24,10,0.4166666666666667
+GNB,Millet,24,13,0.5416666666666666
+GNB,Pulses nes,24,24,1.0
+GNB,"Rice, paddy",24,14,0.5833333333333334
+GNB,Seed cotton,24,24,1.0
+GNB,Sorghum,24,12,0.5
+GNB,Sweet potatoes,5,5,1.0
+GNQ,Cassava,24,24,1.0
+GNQ,Sweet potatoes,24,24,1.0
+GRC,Barley,24,0,0.0
+GRC,"Groundnuts, with shell",18,0,0.0
+GRC,Maize,24,0,0.0
+GRC,Millet,12,10,0.8333333333333334
+GRC,Oats,24,0,0.0
+GRC,Potatoes,24,0,0.0
+GRC,Pulses nes,24,17,0.7083333333333334
+GRC,Rapeseed,24,6,0.25
+GRC,"Rice, paddy",24,0,0.0
+GRC,Rye,24,0,0.0
+GRC,Seed cotton,24,4,0.16666666666666666
+GRC,Sorghum,24,1,0.041666666666666664
+GRC,Soybeans,24,0,0.0
+GRC,Sugar beet,24,0,0.0
+GRC,Sunflower seed,24,0,0.0
+GRC,Sweet potatoes,18,2,0.1111111111111111
+GRC,Wheat,24,0,0.0
+GRD,Cassava,21,21,1.0
+GRD,Maize,24,24,1.0
+GRD,Seed cotton,24,24,1.0
+GRD,Sweet potatoes,24,24,1.0
+GRD,Yams,21,21,1.0
+GTM,Barley,24,8,0.3333333333333333
+GTM,Cassava,24,22,0.9166666666666666
+GTM,"Groundnuts, with shell",24,7,0.2916666666666667
+GTM,Maize,24,5,0.20833333333333334
+GTM,Potatoes,24,7,0.2916666666666667
+GTM,Pulses nes,24,24,1.0
+GTM,"Rice, paddy",24,8,0.3333333333333333
+GTM,Seed cotton,24,24,1.0
+GTM,Sorghum,24,5,0.20833333333333334
+GTM,Soybeans,24,1,0.041666666666666664
+GTM,Sweet potatoes,24,24,1.0
+GTM,Wheat,24,6,0.25
+GUF,Cassava,7,6,0.8571428571428571
+GUF,Maize,7,6,0.8571428571428571
+GUF,"Rice, paddy",7,0,0.0
+GUY,Cassava,24,18,0.75
+GUY,"Groundnuts, with shell",24,19,0.7916666666666666
+GUY,Maize,24,23,0.9583333333333334
+GUY,"Rice, paddy",24,4,0.16666666666666666
+GUY,Sweet potatoes,24,17,0.7083333333333334
+GUY,Yams,24,18,0.75
+HKG,Sweet potatoes,24,24,1.0
+HND,Cassava,24,12,0.5
+HND,"Groundnuts, with shell",24,20,0.8333333333333334
+HND,Maize,24,9,0.375
+HND,Potatoes,24,9,0.375
+HND,"Rice, paddy",24,8,0.3333333333333333
+HND,Seed cotton,24,23,0.9583333333333334
+HND,Sorghum,24,14,0.5833333333333334
+HND,Soybeans,24,20,0.8333333333333334
+HND,Sweet potatoes,24,22,0.9166666666666666
+HND,Wheat,24,22,0.9166666666666666
+HRV,Barley,24,0,0.0
+HRV,Maize,24,0,0.0
+HRV,Millet,18,7,0.3888888888888889
+HRV,Oats,24,0,0.0
+HRV,Potatoes,24,0,0.0
+HRV,Pulses nes,6,0,0.0
+HRV,Rapeseed,24,0,0.0
+HRV,Rye,24,0,0.0
+HRV,Sorghum,17,8,0.47058823529411764
+HRV,Soybeans,24,1,0.041666666666666664
+HRV,Sugar beet,24,0,0.0
+HRV,Sunflower seed,24,1,0.041666666666666664
+HRV,Wheat,24,0,0.0
+HTI,Cassava,24,22,0.9166666666666666
+HTI,"Groundnuts, with shell",24,18,0.75
+HTI,Maize,24,16,0.6666666666666666
+HTI,Potatoes,24,22,0.9166666666666666
+HTI,"Rice, paddy",24,17,0.7083333333333334
+HTI,Seed cotton,24,18,0.75
+HTI,Sorghum,24,17,0.7083333333333334
+HTI,Sweet potatoes,24,18,0.75
+HTI,Yams,24,19,0.7916666666666666
+HUN,Barley,24,0,0.0
+HUN,"Groundnuts, with shell",13,0,0.0
+HUN,Maize,24,0,0.0
+HUN,Millet,18,1,0.05555555555555555
+HUN,Oats,24,0,0.0
+HUN,Potatoes,24,0,0.0
+HUN,Pulses nes,24,0,0.0
+HUN,Rapeseed,24,0,0.0
+HUN,"Rice, paddy",24,0,0.0
+HUN,Rye,24,0,0.0
+HUN,Sorghum,24,0,0.0
+HUN,Soybeans,24,1,0.041666666666666664
+HUN,Sugar beet,24,0,0.0
+HUN,Sunflower seed,24,0,0.0
+HUN,Wheat,24,0,0.0
+IDN,Cassava,24,2,0.08333333333333333
+IDN,"Groundnuts, with shell",24,9,0.375
+IDN,Maize,24,3,0.125
+IDN,Potatoes,24,0,0.0
+IDN,Pulses nes,24,24,1.0
+IDN,"Rice, paddy",24,11,0.4583333333333333
+IDN,Seed cotton,24,1,0.041666666666666664
+IDN,Soybeans,24,2,0.08333333333333333
+IDN,Sweet potatoes,24,2,0.08333333333333333
+IND,Barley,24,0,0.0
+IND,Cassava,24,0,0.0
+IND,"Groundnuts, with shell",24,0,0.0
+IND,Maize,24,0,0.0
+IND,Millet,24,0,0.0
+IND,Potatoes,24,0,0.0
+IND,Rapeseed,24,0,0.0
+IND,"Rice, paddy",24,0,0.0
+IND,Seed cotton,24,5,0.20833333333333334
+IND,Sorghum,24,0,0.0
+IND,Soybeans,24,0,0.0
+IND,Sunflower seed,24,0,0.0
+IND,Sweet potatoes,24,0,0.0
+IND,Wheat,24,0,0.0
+IND,Yams,10,0,0.0
+IRL,Barley,24,0,0.0
+IRL,Oats,24,0,0.0
+IRL,Potatoes,24,0,0.0
+IRL,Rapeseed,24,0,0.0
+IRL,Rye,18,18,1.0
+IRL,Sugar beet,18,10,0.5555555555555556
+IRL,Sunflower seed,2,0,0.0
+IRL,Wheat,24,0,0.0
+IRN,Barley,24,3,0.125
+IRN,"Groundnuts, with shell",24,9,0.375
+IRN,Maize,24,3,0.125
+IRN,Millet,24,9,0.375
+IRN,Potatoes,24,3,0.125
+IRN,Pulses nes,24,9,0.375
+IRN,Rapeseed,24,3,0.125
+IRN,"Rice, paddy",24,0,0.0
+IRN,Rye,24,13,0.5416666666666666
+IRN,Seed cotton,24,3,0.125
+IRN,Soybeans,24,0,0.0
+IRN,Sugar beet,24,3,0.125
+IRN,Sunflower seed,24,1,0.041666666666666664
+IRN,Wheat,24,3,0.125
+IRQ,Barley,24,0,0.0
+IRQ,"Groundnuts, with shell",24,11,0.4583333333333333
+IRQ,Maize,24,0,0.0
+IRQ,Millet,24,0,0.0
+IRQ,Oats,18,8,0.4444444444444444
+IRQ,Potatoes,24,0,0.0
+IRQ,"Rice, paddy",24,0,0.0
+IRQ,Rye,11,3,0.2727272727272727
+IRQ,Seed cotton,24,10,0.4166666666666667
+IRQ,Sorghum,24,6,0.25
+IRQ,Soybeans,24,19,0.7916666666666666
+IRQ,Sugar beet,24,16,0.6666666666666666
+IRQ,Sunflower seed,24,2,0.08333333333333333
+IRQ,Wheat,24,0,0.0
+ISL,Barley,9,1,0.1111111111111111
+ISL,Potatoes,24,0,0.0
+ISR,Barley,24,2,0.08333333333333333
+ISR,"Groundnuts, with shell",24,2,0.08333333333333333
+ISR,Maize,24,4,0.16666666666666666
+ISR,Oats,24,23,0.9583333333333334
+ISR,Potatoes,24,12,0.5
+ISR,Pulses nes,24,24,1.0
+ISR,Seed cotton,24,2,0.08333333333333333
+ISR,Sorghum,21,17,0.8095238095238095
+ISR,Sunflower seed,24,3,0.125
+ISR,Sweet potatoes,24,20,0.8333333333333334
+ISR,Wheat,24,0,0.0
+ITA,Barley,24,0,0.0
+ITA,Maize,24,0,0.0
+ITA,Oats,24,0,0.0
+ITA,Potatoes,24,0,0.0
+ITA,Pulses nes,16,10,0.625
+ITA,Rapeseed,24,0,0.0
+ITA,"Rice, paddy",24,0,0.0
+ITA,Rye,24,0,0.0
+ITA,Sorghum,24,0,0.0
+ITA,Soybeans,24,0,0.0
+ITA,Sugar beet,24,0,0.0
+ITA,Sunflower seed,24,0,0.0
+ITA,Sweet potatoes,18,0,0.0
+ITA,Wheat,24,0,0.0
+JAM,Cassava,24,0,0.0
+JAM,"Groundnuts, with shell",24,0,0.0
+JAM,Maize,24,0,0.0
+JAM,Potatoes,24,0,0.0
+JAM,"Rice, paddy",19,3,0.15789473684210525
+JAM,Sweet potatoes,24,0,0.0
+JAM,Yams,24,0,0.0
+JOR,Barley,24,0,0.0
+JOR,"Groundnuts, with shell",6,6,1.0
+JOR,Millet,8,1,0.125
+JOR,Potatoes,24,0,0.0
+JOR,Sorghum,24,0,0.0
+JOR,Wheat,24,0,0.0
+JPN,Barley,24,0,0.0
+JPN,"Groundnuts, with shell",24,0,0.0
+JPN,Maize,24,24,1.0
+JPN,Millet,24,24,1.0
+JPN,Oats,24,18,0.75
+JPN,Potatoes,24,0,0.0
+JPN,Rapeseed,24,7,0.2916666666666667
+JPN,"Rice, paddy",24,14,0.5833333333333334
+JPN,Soybeans,24,0,0.0
+JPN,Sugar beet,24,0,0.0
+JPN,Sweet potatoes,24,0,0.0
+JPN,Wheat,24,0,0.0
+JPN,Yams,24,0,0.0
+KAZ,Barley,24,0,0.0
+KAZ,"Groundnuts, with shell",24,9,0.375
+KAZ,Maize,24,0,0.0
+KAZ,Millet,24,0,0.0
+KAZ,Oats,24,0,0.0
+KAZ,Potatoes,24,9,0.375
+KAZ,Rapeseed,24,3,0.125
+KAZ,"Rice, paddy",24,0,0.0
+KAZ,Rye,24,0,0.0
+KAZ,Seed cotton,24,0,0.0
+KAZ,Sorghum,24,1,0.041666666666666664
+KAZ,Soybeans,24,0,0.0
+KAZ,Sugar beet,24,0,0.0
+KAZ,Sunflower seed,24,0,0.0
+KAZ,Wheat,24,0,0.0
+KEN,Barley,24,5,0.20833333333333334
+KEN,Cassava,24,0,0.0
+KEN,"Groundnuts, with shell",24,10,0.4166666666666667
+KEN,Maize,24,0,0.0
+KEN,Millet,24,0,0.0
+KEN,Oats,24,24,1.0
+KEN,Potatoes,24,1,0.041666666666666664
+KEN,Pulses nes,24,18,0.75
+KEN,Rapeseed,3,0,0.0
+KEN,"Rice, paddy",24,0,0.0
+KEN,Seed cotton,24,8,0.3333333333333333
+KEN,Sorghum,24,0,0.0
+KEN,Soybeans,24,11,0.4583333333333333
+KEN,Sunflower seed,24,4,0.16666666666666666
+KEN,Sweet potatoes,24,0,0.0
+KEN,Wheat,24,0,0.0
+KEN,Yams,24,0,0.0
+KGZ,Barley,24,0,0.0
+KGZ,"Groundnuts, with shell",24,1,0.041666666666666664
+KGZ,Maize,24,0,0.0
+KGZ,Millet,24,0,0.0
+KGZ,Oats,24,0,0.0
+KGZ,Potatoes,24,0,0.0
+KGZ,Pulses nes,21,1,0.047619047619047616
+KGZ,Rapeseed,19,1,0.05263157894736842
+KGZ,"Rice, paddy",24,0,0.0
+KGZ,Rye,22,8,0.36363636363636365
+KGZ,Seed cotton,24,0,0.0
+KGZ,Sorghum,24,6,0.25
+KGZ,Soybeans,24,0,0.0
+KGZ,Sugar beet,24,1,0.041666666666666664
+KGZ,Sunflower seed,24,0,0.0
+KGZ,Wheat,24,0,0.0
+KHM,Cassava,24,4,0.16666666666666666
+KHM,"Groundnuts, with shell",24,0,0.0
+KHM,Maize,24,5,0.20833333333333334
+KHM,"Rice, paddy",24,0,0.0
+KHM,Seed cotton,24,21,0.875
+KHM,Soybeans,24,0,0.0
+KHM,Sweet potatoes,24,4,0.16666666666666666
+KNA,"Groundnuts, with shell",24,13,0.5416666666666666
+KNA,Potatoes,15,4,0.26666666666666666
+KNA,Pulses nes,24,24,1.0
+KNA,Seed cotton,24,23,0.9583333333333334
+KNA,Sweet potatoes,24,13,0.5416666666666666
+KNA,Yams,22,10,0.45454545454545453
+KOR,Barley,24,0,0.0
+KOR,"Groundnuts, with shell",24,0,0.0
+KOR,Maize,24,1,0.041666666666666664
+KOR,Millet,24,9,0.375
+KOR,Potatoes,24,0,0.0
+KOR,Pulses nes,24,0,0.0
+KOR,Rapeseed,24,4,0.16666666666666666
+KOR,"Rice, paddy",24,0,0.0
+KOR,Rye,19,15,0.7894736842105263
+KOR,Seed cotton,6,6,1.0
+KOR,Sorghum,24,14,0.5833333333333334
+KOR,Soybeans,24,0,0.0
+KOR,Sweet potatoes,24,0,0.0
+KOR,Wheat,24,0,0.0
+KWT,Barley,24,1,0.041666666666666664
+KWT,Maize,24,3,0.125
+KWT,Potatoes,24,3,0.125
+KWT,Sweet potatoes,7,7,1.0
+KWT,Wheat,24,1,0.041666666666666664
+LAO,Cassava,24,3,0.125
+LAO,"Groundnuts, with shell",24,2,0.08333333333333333
+LAO,Maize,24,0,0.0
+LAO,Potatoes,24,12,0.5
+LAO,Pulses nes,24,21,0.875
+LAO,"Rice, paddy",24,0,0.0
+LAO,Seed cotton,24,11,0.4583333333333333
+LAO,Soybeans,24,1,0.041666666666666664
+LAO,Sweet potatoes,24,2,0.08333333333333333
+LBN,Barley,24,5,0.20833333333333334
+LBN,"Groundnuts, with shell",24,24,1.0
+LBN,Maize,24,5,0.20833333333333334
+LBN,Oats,24,23,0.9583333333333334
+LBN,Potatoes,24,1,0.041666666666666664
+LBN,Pulses nes,24,18,0.75
+LBN,Sorghum,24,23,0.9583333333333334
+LBN,Sugar beet,22,12,0.5454545454545454
+LBN,Sunflower seed,2,2,1.0
+LBN,Wheat,24,4,0.16666666666666666
+LBR,Cassava,24,18,0.75
+LBR,"Groundnuts, with shell",24,23,0.9583333333333334
+LBR,Pulses nes,24,24,1.0
+LBR,"Rice, paddy",24,12,0.5
+LBR,Soybeans,24,23,0.9583333333333334
+LBR,Sweet potatoes,24,24,1.0
+LBR,Yams,24,24,1.0
+LBY,Barley,24,15,0.625
+LBY,"Groundnuts, with shell",24,10,0.4166666666666667
+LBY,Maize,24,9,0.375
+LBY,Millet,24,18,0.75
+LBY,Potatoes,24,6,0.25
+LBY,Wheat,24,18,0.75
+LCA,Cassava,24,24,1.0
+LCA,Pulses nes,24,24,1.0
+LCA,Sweet potatoes,24,17,0.7083333333333334
+LCA,Yams,24,17,0.7083333333333334
+LKA,Cassava,24,0,0.0
+LKA,"Groundnuts, with shell",24,1,0.041666666666666664
+LKA,Maize,24,1,0.041666666666666664
+LKA,Millet,24,0,0.0
+LKA,Potatoes,24,0,0.0
+LKA,"Rice, paddy",24,0,0.0
+LKA,Sorghum,24,1,0.041666666666666664
+LKA,Soybeans,24,1,0.041666666666666664
+LKA,Sweet potatoes,24,1,0.041666666666666664
+LSO,Barley,24,22,0.9166666666666666
+LSO,Maize,24,1,0.041666666666666664
+LSO,Oats,24,24,1.0
+LSO,Potatoes,24,24,1.0
+LSO,Sorghum,24,1,0.041666666666666664
+LSO,Wheat,24,0,0.0
+LTU,Barley,24,0,0.0
+LTU,Maize,24,2,0.08333333333333333
+LTU,Oats,24,0,0.0
+LTU,Potatoes,24,0,0.0
+LTU,Pulses nes,24,3,0.125
+LTU,Rapeseed,24,0,0.0
+LTU,Rye,24,0,0.0
+LTU,Soybeans,6,0,0.0
+LTU,Sugar beet,24,0,0.0
+LTU,Wheat,24,0,0.0
+LUX,Barley,24,0,0.0
+LUX,Maize,24,0,0.0
+LUX,Oats,24,0,0.0
+LUX,Potatoes,24,0,0.0
+LUX,Pulses nes,23,0,0.0
+LUX,Rapeseed,24,0,0.0
+LUX,Rye,24,0,0.0
+LUX,Soybeans,4,0,0.0
+LUX,Sugar beet,1,0,0.0
+LUX,Sunflower seed,4,0,0.0
+LUX,Wheat,24,0,0.0
+LVA,Barley,24,0,0.0
+LVA,Oats,24,0,0.0
+LVA,Potatoes,24,0,0.0
+LVA,Pulses nes,24,1,0.041666666666666664
+LVA,Rapeseed,24,0,0.0
+LVA,Rye,24,0,0.0
+LVA,Sugar beet,8,1,0.125
+LVA,Wheat,24,0,0.0
+MAR,Barley,24,0,0.0
+MAR,"Groundnuts, with shell",24,0,0.0
+MAR,Maize,24,0,0.0
+MAR,Millet,24,24,1.0
+MAR,Oats,24,0,0.0
+MAR,Potatoes,24,0,0.0
+MAR,Pulses nes,24,0,0.0
+MAR,Rapeseed,24,0,0.0
+MAR,"Rice, paddy",24,0,0.0
+MAR,Rye,24,24,1.0
+MAR,Seed cotton,24,20,0.8333333333333334
+MAR,Sorghum,24,0,0.0
+MAR,Soybeans,24,8,0.3333333333333333
+MAR,Sugar beet,24,0,0.0
+MAR,Sunflower seed,24,0,0.0
+MAR,Sweet potatoes,24,1,0.041666666666666664
+MAR,Wheat,24,0,0.0
+MDA,Barley,24,0,0.0
+MDA,Maize,24,1,0.041666666666666664
+MDA,Millet,24,0,0.0
+MDA,Oats,24,0,0.0
+MDA,Potatoes,24,0,0.0
+MDA,Rapeseed,24,6,0.25
+MDA,Rye,24,0,0.0
+MDA,Sorghum,24,0,0.0
+MDA,Soybeans,24,0,0.0
+MDA,Sugar beet,24,0,0.0
+MDA,Sunflower seed,24,0,0.0
+MDA,Wheat,24,1,0.041666666666666664
+MDG,Cassava,24,13,0.5416666666666666
+MDG,"Groundnuts, with shell",24,7,0.2916666666666667
+MDG,Maize,24,12,0.5
+MDG,Potatoes,24,15,0.625
+MDG,Pulses nes,24,24,1.0
+MDG,"Rice, paddy",24,9,0.375
+MDG,Seed cotton,24,18,0.75
+MDG,Sorghum,24,24,1.0
+MDG,Soybeans,24,24,1.0
+MDG,Sweet potatoes,24,15,0.625
+MDG,Wheat,24,23,0.9583333333333334
+MDV,Cassava,24,23,0.9583333333333334
+MDV,Maize,24,24,1.0
+MDV,Millet,19,19,1.0
+MDV,Pulses nes,24,24,1.0
+MDV,Sorghum,24,24,1.0
+MDV,Sweet potatoes,24,23,0.9583333333333334
+MEX,Barley,24,0,0.0
+MEX,Cassava,24,0,0.0
+MEX,"Groundnuts, with shell",24,0,0.0
+MEX,Maize,24,0,0.0
+MEX,Millet,23,13,0.5652173913043478
+MEX,Oats,24,0,0.0
+MEX,Potatoes,24,0,0.0
+MEX,Pulses nes,24,24,1.0
+MEX,Rapeseed,24,0,0.0
+MEX,"Rice, paddy",24,0,0.0
+MEX,Rye,23,2,0.08695652173913043
+MEX,Seed cotton,24,0,0.0
+MEX,Sorghum,24,0,0.0
+MEX,Soybeans,24,0,0.0
+MEX,Sugar beet,24,21,0.875
+MEX,Sunflower seed,24,0,0.0
+MEX,Sweet potatoes,24,0,0.0
+MEX,Wheat,24,0,0.0
+MKD,Barley,24,0,0.0
+MKD,Maize,24,0,0.0
+MKD,Millet,16,14,0.875
+MKD,Oats,24,0,0.0
+MKD,Potatoes,24,0,0.0
+MKD,Pulses nes,24,20,0.8333333333333334
+MKD,Rapeseed,24,2,0.08333333333333333
+MKD,"Rice, paddy",24,0,0.0
+MKD,Rye,24,0,0.0
+MKD,Sorghum,16,14,0.875
+MKD,Soybeans,21,6,0.2857142857142857
+MKD,Sugar beet,24,16,0.6666666666666666
+MKD,Sunflower seed,24,0,0.0
+MKD,Wheat,24,0,0.0
+MLI,Cassava,24,6,0.25
+MLI,"Groundnuts, with shell",24,2,0.08333333333333333
+MLI,Maize,24,0,0.0
+MLI,Millet,24,0,0.0
+MLI,Potatoes,24,10,0.4166666666666667
+MLI,Pulses nes,24,24,1.0
+MLI,"Rice, paddy",24,0,0.0
+MLI,Seed cotton,24,1,0.041666666666666664
+MLI,Sorghum,24,0,0.0
+MLI,Soybeans,24,9,0.375
+MLI,Sugar beet,17,7,0.4117647058823529
+MLI,Sweet potatoes,24,3,0.125
+MLI,Wheat,24,0,0.0
+MLI,Yams,24,3,0.125
+MLT,Barley,18,17,0.9444444444444444
+MLT,Potatoes,24,0,0.0
+MLT,Wheat,18,16,0.8888888888888888
+MMR,Cassava,24,2,0.08333333333333333
+MMR,"Groundnuts, with shell",24,1,0.041666666666666664
+MMR,Maize,24,1,0.041666666666666664
+MMR,Millet,24,3,0.125
+MMR,Potatoes,24,1,0.041666666666666664
+MMR,"Rice, paddy",24,1,0.041666666666666664
+MMR,Seed cotton,24,1,0.041666666666666664
+MMR,Sorghum,24,15,0.625
+MMR,Soybeans,24,0,0.0
+MMR,Sunflower seed,24,4,0.16666666666666666
+MMR,Sweet potatoes,24,22,0.9166666666666666
+MMR,Wheat,24,0,0.0
+MNE,Barley,18,0,0.0
+MNE,Maize,18,0,0.0
+MNE,Oats,18,0,0.0
+MNE,Potatoes,18,0,0.0
+MNE,Rye,18,0,0.0
+MNE,Wheat,18,0,0.0
+MNG,Barley,24,1,0.041666666666666664
+MNG,Oats,24,2,0.08333333333333333
+MNG,Potatoes,24,0,0.0
+MNG,Pulses nes,24,24,1.0
+MNG,Rapeseed,18,12,0.6666666666666666
+MNG,Wheat,24,0,0.0
+MOZ,Cassava,24,6,0.25
+MOZ,"Groundnuts, with shell",24,3,0.125
+MOZ,Maize,24,3,0.125
+MOZ,Millet,24,3,0.125
+MOZ,Potatoes,24,15,0.625
+MOZ,Pulses nes,24,24,1.0
+MOZ,"Rice, paddy",24,13,0.5416666666666666
+MOZ,Seed cotton,24,17,0.7083333333333334
+MOZ,Sorghum,24,4,0.16666666666666666
+MOZ,Soybeans,8,0,0.0
+MOZ,Sunflower seed,24,13,0.5416666666666666
+MOZ,Sweet potatoes,24,10,0.4166666666666667
+MOZ,Wheat,24,11,0.4583333333333333
+MRT,Barley,18,11,0.6111111111111112
+MRT,"Groundnuts, with shell",24,16,0.6666666666666666
+MRT,Maize,24,4,0.16666666666666666
+MRT,Millet,24,1,0.041666666666666664
+MRT,Potatoes,24,21,0.875
+MRT,Pulses nes,24,21,0.875
+MRT,"Rice, paddy",24,9,0.375
+MRT,Sorghum,24,1,0.041666666666666664
+MRT,Sweet potatoes,24,21,0.875
+MRT,Wheat,24,12,0.5
+MRT,Yams,24,24,1.0
+MTQ,Cassava,7,7,1.0
+MTQ,Sweet potatoes,7,7,1.0
+MTQ,Yams,7,7,1.0
+MUS,Cassava,24,0,0.0
+MUS,"Groundnuts, with shell",24,0,0.0
+MUS,Maize,24,0,0.0
+MUS,Potatoes,24,0,0.0
+MUS,"Rice, paddy",9,0,0.0
+MUS,Sweet potatoes,24,0,0.0
+MWI,Cassava,24,2,0.08333333333333333
+MWI,"Groundnuts, with shell",24,3,0.125
+MWI,Maize,24,1,0.041666666666666664
+MWI,Millet,24,1,0.041666666666666664
+MWI,Potatoes,24,1,0.041666666666666664
+MWI,Pulses nes,7,3,0.42857142857142855
+MWI,"Rice, paddy",24,0,0.0
+MWI,Seed cotton,24,5,0.20833333333333334
+MWI,Sorghum,24,1,0.041666666666666664
+MWI,Soybeans,21,3,0.14285714285714285
+MWI,Sunflower seed,24,3,0.125
+MWI,Sweet potatoes,10,4,0.4
+MWI,Wheat,24,3,0.125
+MYS,Cassava,24,7,0.2916666666666667
+MYS,"Groundnuts, with shell",24,3,0.125
+MYS,Maize,3,0,0.0
+MYS,Pulses nes,4,0,0.0
+MYS,"Rice, paddy",24,1,0.041666666666666664
+MYS,Sweet potatoes,24,6,0.25
+MYS,Yams,4,0,0.0
+NAM,"Groundnuts, with shell",24,23,0.9583333333333334
+NAM,Maize,24,7,0.2916666666666667
+NAM,Millet,24,10,0.4166666666666667
+NAM,Potatoes,24,24,1.0
+NAM,Pulses nes,24,24,1.0
+NAM,Seed cotton,8,6,0.75
+NAM,Sorghum,24,10,0.4166666666666667
+NAM,Sunflower seed,24,22,0.9166666666666666
+NAM,Wheat,24,8,0.3333333333333333
+NCL,Cassava,24,24,1.0
+NCL,Maize,24,21,0.875
+NCL,Potatoes,24,24,1.0
+NCL,Pulses nes,24,24,1.0
+NCL,Sorghum,7,7,1.0
+NCL,Sweet potatoes,24,24,1.0
+NCL,Wheat,15,15,1.0
+NCL,Yams,24,24,1.0
+NER,Cassava,24,6,0.25
+NER,"Groundnuts, with shell",24,0,0.0
+NER,Maize,24,0,0.0
+NER,Millet,24,0,0.0
+NER,Potatoes,24,7,0.2916666666666667
+NER,Pulses nes,24,24,1.0
+NER,"Rice, paddy",24,2,0.08333333333333333
+NER,Seed cotton,24,23,0.9583333333333334
+NER,Sorghum,24,1,0.041666666666666664
+NER,Sweet potatoes,24,4,0.16666666666666666
+NER,Wheat,24,12,0.5
+NGA,Cassava,24,2,0.08333333333333333
+NGA,"Groundnuts, with shell",24,2,0.08333333333333333
+NGA,Maize,24,1,0.041666666666666664
+NGA,Millet,24,0,0.0
+NGA,Potatoes,24,15,0.625
+NGA,Pulses nes,24,24,1.0
+NGA,"Rice, paddy",24,0,0.0
+NGA,Seed cotton,24,6,0.25
+NGA,Sorghum,24,1,0.041666666666666664
+NGA,Soybeans,24,2,0.08333333333333333
+NGA,Sweet potatoes,24,15,0.625
+NGA,Wheat,24,7,0.2916666666666667
+NGA,Yams,24,2,0.08333333333333333
+NIC,Cassava,24,7,0.2916666666666667
+NIC,"Groundnuts, with shell",24,13,0.5416666666666666
+NIC,Maize,24,0,0.0
+NIC,Potatoes,24,11,0.4583333333333333
+NIC,"Rice, paddy",24,0,0.0
+NIC,Seed cotton,24,24,1.0
+NIC,Sorghum,24,0,0.0
+NIC,Soybeans,24,0,0.0
+NIC,Yams,24,21,0.875
+NIU,Cassava,24,24,1.0
+NIU,Sweet potatoes,24,24,1.0
+NIU,Yams,24,24,1.0
+NLD,Barley,24,0,0.0
+NLD,Maize,24,0,0.0
+NLD,Oats,24,0,0.0
+NLD,Potatoes,24,0,0.0
+NLD,Rapeseed,24,0,0.0
+NLD,Rye,24,0,0.0
+NLD,Sugar beet,24,0,0.0
+NLD,Wheat,24,0,0.0
+NOR,Barley,24,0,0.0
+NOR,Oats,24,0,0.0
+NOR,Potatoes,24,0,0.0
+NOR,Rapeseed,24,0,0.0
+NOR,Rye,24,0,0.0
+NOR,Wheat,24,0,0.0
+NPL,Barley,24,0,0.0
+NPL,Maize,24,0,0.0
+NPL,Millet,24,0,0.0
+NPL,Potatoes,24,0,0.0
+NPL,Pulses nes,24,2,0.08333333333333333
+NPL,"Rice, paddy",24,0,0.0
+NPL,Seed cotton,24,6,0.25
+NPL,Soybeans,24,0,0.0
+NPL,Wheat,24,0,0.0
+NZL,Barley,24,0,0.0
+NZL,Maize,24,0,0.0
+NZL,Oats,24,0,0.0
+NZL,Potatoes,24,16,0.6666666666666666
+NZL,Rapeseed,24,19,0.7916666666666666
+NZL,Sweet potatoes,24,19,0.7916666666666666
+NZL,Wheat,24,0,0.0
+OMN,Barley,20,0,0.0
+OMN,Maize,24,12,0.5
+OMN,Potatoes,24,3,0.125
+OMN,Sorghum,24,5,0.20833333333333334
+OMN,Wheat,24,0,0.0
+PAK,Barley,24,0,0.0
+PAK,"Groundnuts, with shell",24,0,0.0
+PAK,Maize,24,0,0.0
+PAK,Millet,24,0,0.0
+PAK,Potatoes,24,0,0.0
+PAK,Pulses nes,24,7,0.2916666666666667
+PAK,Rapeseed,24,0,0.0
+PAK,"Rice, paddy",24,0,0.0
+PAK,Seed cotton,24,0,0.0
+PAK,Sorghum,24,0,0.0
+PAK,Soybeans,24,0,0.0
+PAK,Sugar beet,23,1,0.043478260869565216
+PAK,Sunflower seed,24,0,0.0
+PAK,Sweet potatoes,24,0,0.0
+PAK,Wheat,24,0,0.0
+PAN,Cassava,24,13,0.5416666666666666
+PAN,Maize,24,0,0.0
+PAN,Potatoes,24,12,0.5
+PAN,Pulses nes,19,19,1.0
+PAN,"Rice, paddy",24,0,0.0
+PAN,Sorghum,24,11,0.4583333333333333
+PAN,Soybeans,24,24,1.0
+PAN,Sweet potatoes,5,4,0.8
+PAN,Yams,24,16,0.6666666666666666
+PER,Barley,24,0,0.0
+PER,Cassava,24,0,0.0
+PER,"Groundnuts, with shell",24,1,0.041666666666666664
+PER,Maize,24,0,0.0
+PER,Oats,24,2,0.08333333333333333
+PER,Potatoes,24,0,0.0
+PER,Pulses nes,24,13,0.5416666666666666
+PER,"Rice, paddy",24,0,0.0
+PER,Rye,24,4,0.16666666666666666
+PER,Seed cotton,24,0,0.0
+PER,Sorghum,24,1,0.041666666666666664
+PER,Soybeans,24,0,0.0
+PER,Sweet potatoes,24,0,0.0
+PER,Wheat,24,0,0.0
+PHL,Cassava,24,0,0.0
+PHL,"Groundnuts, with shell",24,0,0.0
+PHL,Maize,24,0,0.0
+PHL,Potatoes,24,0,0.0
+PHL,Pulses nes,24,24,1.0
+PHL,"Rice, paddy",24,0,0.0
+PHL,Seed cotton,24,14,0.5833333333333334
+PHL,Sorghum,24,0,0.0
+PHL,Soybeans,24,0,0.0
+PHL,Sweet potatoes,24,0,0.0
+PHL,Yams,24,0,0.0
+PNG,Cassava,24,21,0.875
+PNG,"Groundnuts, with shell",24,24,1.0
+PNG,Maize,24,23,0.9583333333333334
+PNG,Potatoes,24,23,0.9583333333333334
+PNG,Pulses nes,24,24,1.0
+PNG,"Rice, paddy",24,24,1.0
+PNG,Sorghum,24,24,1.0
+PNG,Sweet potatoes,24,21,0.875
+PNG,Yams,24,24,1.0
+POL,Barley,24,0,0.0
+POL,Maize,24,0,0.0
+POL,Millet,15,0,0.0
+POL,Oats,24,0,0.0
+POL,Potatoes,24,0,0.0
+POL,Pulses nes,24,4,0.16666666666666666
+POL,Rapeseed,24,0,0.0
+POL,Rye,24,0,0.0
+POL,Soybeans,18,0,0.0
+POL,Sugar beet,24,0,0.0
+POL,Sunflower seed,24,0,0.0
+POL,Wheat,24,0,0.0
+PRI,Cassava,24,17,0.7083333333333334
+PRI,Maize,24,19,0.7916666666666666
+PRI,"Rice, paddy",10,7,0.7
+PRI,Sunflower seed,2,1,0.5
+PRI,Sweet potatoes,24,16,0.6666666666666666
+PRI,Yams,24,16,0.6666666666666666
+PRK,Barley,24,7,0.2916666666666667
+PRK,Maize,24,0,0.0
+PRK,Millet,24,24,1.0
+PRK,Oats,24,24,1.0
+PRK,Potatoes,24,8,0.3333333333333333
+PRK,"Rice, paddy",24,5,0.20833333333333334
+PRK,Rye,24,24,1.0
+PRK,Seed cotton,24,24,1.0
+PRK,Sorghum,24,24,1.0
+PRK,Soybeans,24,0,0.0
+PRK,Sweet potatoes,24,20,0.8333333333333334
+PRK,Wheat,24,7,0.2916666666666667
+PRT,Barley,24,0,0.0
+PRT,Maize,24,0,0.0
+PRT,Oats,24,0,0.0
+PRT,Potatoes,24,0,0.0
+PRT,Pulses nes,6,0,0.0
+PRT,"Rice, paddy",24,0,0.0
+PRT,Rye,24,0,0.0
+PRT,Sugar beet,18,2,0.1111111111111111
+PRT,Sunflower seed,24,0,0.0
+PRT,Sweet potatoes,18,13,0.7222222222222222
+PRT,Wheat,24,0,0.0
+PRT,Yams,18,18,1.0
+PRY,Cassava,24,0,0.0
+PRY,"Groundnuts, with shell",24,0,0.0
+PRY,Maize,24,0,0.0
+PRY,Potatoes,24,2,0.08333333333333333
+PRY,Rapeseed,24,2,0.08333333333333333
+PRY,"Rice, paddy",24,0,0.0
+PRY,Seed cotton,24,0,0.0
+PRY,Sorghum,24,1,0.041666666666666664
+PRY,Soybeans,24,0,0.0
+PRY,Sunflower seed,24,0,0.0
+PRY,Sweet potatoes,24,1,0.041666666666666664
+PRY,Wheat,24,0,0.0
+PSE,Barley,23,3,0.13043478260869565
+PSE,"Groundnuts, with shell",22,21,0.9545454545454546
+PSE,Potatoes,23,3,0.13043478260869565
+PSE,Pulses nes,2,1,0.5
+PSE,Sorghum,23,11,0.4782608695652174
+PSE,Sugar beet,1,1,1.0
+PSE,Sunflower seed,23,13,0.5652173913043478
+PSE,Sweet potatoes,23,11,0.4782608695652174
+PSE,Wheat,23,3,0.13043478260869565
+PYF,Cassava,24,24,1.0
+PYF,Potatoes,22,22,1.0
+PYF,Soybeans,6,6,1.0
+PYF,Sweet potatoes,6,5,0.8333333333333334
+PYF,Yams,6,5,0.8333333333333334
+QAT,Barley,24,2,0.08333333333333333
+QAT,Maize,24,1,0.041666666666666664
+QAT,Potatoes,24,2,0.08333333333333333
+QAT,Wheat,23,0,0.0
+REU,Cassava,7,5,0.7142857142857143
+REU,"Groundnuts, with shell",7,7,1.0
+REU,Maize,7,7,1.0
+REU,Potatoes,7,4,0.5714285714285714
+REU,Pulses nes,7,7,1.0
+REU,"Rice, paddy",7,7,1.0
+REU,Sweet potatoes,7,5,0.7142857142857143
+ROU,Barley,24,0,0.0
+ROU,Maize,24,0,0.0
+ROU,Oats,24,0,0.0
+ROU,Potatoes,24,0,0.0
+ROU,Pulses nes,24,0,0.0
+ROU,Rapeseed,24,0,0.0
+ROU,"Rice, paddy",24,0,0.0
+ROU,Rye,24,0,0.0
+ROU,Sorghum,24,0,0.0
+ROU,Soybeans,24,0,0.0
+ROU,Sugar beet,24,0,0.0
+ROU,Sunflower seed,24,0,0.0
+ROU,Wheat,24,0,0.0
+RUS,Barley,24,0,0.0
+RUS,Maize,24,1,0.041666666666666664
+RUS,Millet,24,0,0.0
+RUS,Oats,24,0,0.0
+RUS,Potatoes,24,1,0.041666666666666664
+RUS,Pulses nes,24,1,0.041666666666666664
+RUS,Rapeseed,24,0,0.0
+RUS,"Rice, paddy",24,0,0.0
+RUS,Rye,24,0,0.0
+RUS,Sorghum,24,1,0.041666666666666664
+RUS,Soybeans,24,0,0.0
+RUS,Sugar beet,24,1,0.041666666666666664
+RUS,Sunflower seed,24,0,0.0
+RUS,Wheat,24,1,0.041666666666666664
+RWA,Cassava,24,10,0.4166666666666667
+RWA,"Groundnuts, with shell",24,1,0.041666666666666664
+RWA,Maize,24,1,0.041666666666666664
+RWA,Millet,24,2,0.08333333333333333
+RWA,Potatoes,24,5,0.20833333333333334
+RWA,"Rice, paddy",24,0,0.0
+RWA,Sorghum,24,0,0.0
+RWA,Soybeans,24,0,0.0
+RWA,Sweet potatoes,24,0,0.0
+RWA,Wheat,24,11,0.4583333333333333
+RWA,Yams,24,14,0.5833333333333334
+SAU,Barley,24,1,0.041666666666666664
+SAU,"Groundnuts, with shell",24,24,1.0
+SAU,Maize,24,4,0.16666666666666666
+SAU,Millet,24,0,0.0
+SAU,Potatoes,24,0,0.0
+SAU,Pulses nes,24,24,1.0
+SAU,"Rice, paddy",6,0,0.0
+SAU,Sorghum,24,0,0.0
+SAU,Wheat,24,0,0.0
+SCG,Barley,6,0,0.0
+SCG,Maize,6,0,0.0
+SCG,Millet,6,1,0.16666666666666666
+SCG,Oats,6,0,0.0
+SCG,Potatoes,6,0,0.0
+SCG,Rapeseed,6,0,0.0
+SCG,Rye,6,0,0.0
+SCG,Sorghum,6,0,0.0
+SCG,Soybeans,6,0,0.0
+SCG,Sugar beet,6,0,0.0
+SCG,Sunflower seed,6,1,0.16666666666666666
+SCG,Wheat,6,0,0.0
+SDN,"Groundnuts, with shell",12,0,0.0
+SDN,Maize,12,4,0.3333333333333333
+SDN,Millet,12,0,0.0
+SDN,Potatoes,12,3,0.25
+SDN,Pulses nes,12,12,1.0
+SDN,"Rice, paddy",12,3,0.25
+SDN,Seed cotton,12,2,0.16666666666666666
+SDN,Sorghum,12,2,0.16666666666666666
+SDN,Sunflower seed,12,0,0.0
+SDN,Sweet potatoes,12,3,0.25
+SDN,Wheat,12,0,0.0
+SDN,Yams,12,12,1.0
+SEN,Cassava,24,0,0.0
+SEN,"Groundnuts, with shell",24,0,0.0
+SEN,Maize,24,0,0.0
+SEN,Millet,24,0,0.0
+SEN,Potatoes,24,11,0.4583333333333333
+SEN,Pulses nes,24,17,0.7083333333333334
+SEN,"Rice, paddy",24,0,0.0
+SEN,Seed cotton,24,1,0.041666666666666664
+SEN,Sorghum,24,0,0.0
+SEN,Sweet potatoes,24,12,0.5
+SEN,Yams,10,10,1.0
+SGP,Cassava,23,23,1.0
+SGP,Sweet potatoes,23,23,1.0
+SLB,Cassava,24,24,1.0
+SLB,Pulses nes,24,24,1.0
+SLB,"Rice, paddy",24,19,0.7916666666666666
+SLB,Sweet potatoes,24,24,1.0
+SLB,Yams,24,24,1.0
+SLE,Cassava,24,9,0.375
+SLE,"Groundnuts, with shell",24,8,0.3333333333333333
+SLE,Maize,24,5,0.20833333333333334
+SLE,Millet,24,17,0.7083333333333334
+SLE,Pulses nes,24,24,1.0
+SLE,"Rice, paddy",24,10,0.4166666666666667
+SLE,Sorghum,24,19,0.7916666666666666
+SLE,Soybeans,1,0,0.0
+SLE,Sweet potatoes,24,7,0.2916666666666667
+SLE,Yams,1,0,0.0
+SLV,Cassava,24,2,0.08333333333333333
+SLV,Maize,24,1,0.041666666666666664
+SLV,Potatoes,24,2,0.08333333333333333
+SLV,"Rice, paddy",24,1,0.041666666666666664
+SLV,Seed cotton,21,1,0.047619047619047616
+SLV,Sorghum,24,1,0.041666666666666664
+SLV,Soybeans,24,24,1.0
+SLV,Sweet potatoes,24,24,1.0
+SOM,Cassava,24,24,1.0
+SOM,"Groundnuts, with shell",24,19,0.7916666666666666
+SOM,Maize,24,5,0.20833333333333334
+SOM,"Rice, paddy",24,9,0.375
+SOM,Seed cotton,24,24,1.0
+SOM,Sorghum,24,4,0.16666666666666666
+SOM,Sweet potatoes,24,24,1.0
+SOM,Wheat,24,24,1.0
+SRB,Barley,18,0,0.0
+SRB,Maize,18,0,0.0
+SRB,Millet,18,18,1.0
+SRB,Oats,18,0,0.0
+SRB,Potatoes,18,0,0.0
+SRB,Pulses nes,9,0,0.0
+SRB,Rapeseed,18,0,0.0
+SRB,Rye,18,0,0.0
+SRB,Sorghum,18,16,0.8888888888888888
+SRB,Soybeans,18,0,0.0
+SRB,Sugar beet,18,0,0.0
+SRB,Sunflower seed,18,0,0.0
+SRB,Wheat,18,0,0.0
+SSD,Cassava,12,3,0.25
+SSD,"Groundnuts, with shell",12,3,0.25
+SSD,Maize,12,1,0.08333333333333333
+SSD,Millet,12,1,0.08333333333333333
+SSD,Pulses nes,12,12,1.0
+SSD,"Rice, paddy",9,1,0.1111111111111111
+SSD,Sorghum,12,1,0.08333333333333333
+SSD,Sunflower seed,12,12,1.0
+SSD,Yams,12,12,1.0
+STP,Cassava,24,24,1.0
+STP,Maize,24,24,1.0
+STP,Yams,24,24,1.0
+SUR,Cassava,24,2,0.08333333333333333
+SUR,"Groundnuts, with shell",24,0,0.0
+SUR,Maize,24,0,0.0
+SUR,Pulses nes,24,7,0.2916666666666667
+SUR,"Rice, paddy",24,0,0.0
+SUR,Soybeans,24,6,0.25
+SUR,Sweet potatoes,24,2,0.08333333333333333
+SVK,Barley,24,0,0.0
+SVK,Maize,24,0,0.0
+SVK,Millet,18,0,0.0
+SVK,Oats,24,0,0.0
+SVK,Potatoes,24,0,0.0
+SVK,Pulses nes,24,5,0.20833333333333334
+SVK,Rapeseed,24,0,0.0
+SVK,Rye,24,0,0.0
+SVK,Sorghum,24,0,0.0
+SVK,Soybeans,24,0,0.0
+SVK,Sugar beet,24,0,0.0
+SVK,Sunflower seed,24,0,0.0
+SVK,Wheat,24,0,0.0
+SVN,Barley,24,0,0.0
+SVN,Maize,24,0,0.0
+SVN,Millet,18,0,0.0
+SVN,Oats,24,0,0.0
+SVN,Potatoes,24,0,0.0
+SVN,Pulses nes,21,0,0.0
+SVN,Rapeseed,24,0,0.0
+SVN,Rye,24,0,0.0
+SVN,Sorghum,6,0,0.0
+SVN,Soybeans,24,0,0.0
+SVN,Sugar beet,12,0,0.0
+SVN,Sunflower seed,24,0,0.0
+SVN,Wheat,24,0,0.0
+SWE,Barley,24,0,0.0
+SWE,Maize,6,0,0.0
+SWE,Oats,24,0,0.0
+SWE,Potatoes,24,0,0.0
+SWE,Pulses nes,6,0,0.0
+SWE,Rapeseed,24,0,0.0
+SWE,Rye,24,0,0.0
+SWE,Sugar beet,24,0,0.0
+SWE,Wheat,24,0,0.0
+SWZ,"Groundnuts, with shell",24,23,0.9583333333333334
+SWZ,Maize,24,5,0.20833333333333334
+SWZ,Potatoes,24,23,0.9583333333333334
+SWZ,Pulses nes,24,24,1.0
+SWZ,"Rice, paddy",24,23,0.9583333333333334
+SWZ,Seed cotton,24,24,1.0
+SWZ,Sorghum,24,20,0.8333333333333334
+SWZ,Sweet potatoes,24,24,1.0
+SWZ,Wheat,24,23,0.9583333333333334
+SYC,Cassava,24,23,0.9583333333333334
+SYR,Barley,24,0,0.0
+SYR,"Groundnuts, with shell",24,0,0.0
+SYR,Maize,24,0,0.0
+SYR,Millet,23,0,0.0
+SYR,Oats,18,3,0.16666666666666666
+SYR,Potatoes,24,0,0.0
+SYR,Pulses nes,24,24,1.0
+SYR,Seed cotton,24,2,0.08333333333333333
+SYR,Sorghum,24,0,0.0
+SYR,Soybeans,24,0,0.0
+SYR,Sugar beet,22,0,0.0
+SYR,Sunflower seed,24,0,0.0
+SYR,Wheat,24,0,0.0
+TCD,Cassava,24,0,0.0
+TCD,"Groundnuts, with shell",24,0,0.0
+TCD,Maize,24,1,0.041666666666666664
+TCD,Millet,24,1,0.041666666666666664
+TCD,Potatoes,24,23,0.9583333333333334
+TCD,Pulses nes,24,11,0.4583333333333333
+TCD,"Rice, paddy",24,0,0.0
+TCD,Seed cotton,24,17,0.7083333333333334
+TCD,Sorghum,24,0,0.0
+TCD,Sweet potatoes,24,4,0.16666666666666666
+TCD,Wheat,23,1,0.043478260869565216
+TGO,Cassava,24,1,0.041666666666666664
+TGO,"Groundnuts, with shell",24,0,0.0
+TGO,Maize,24,0,0.0
+TGO,Millet,24,0,0.0
+TGO,"Rice, paddy",24,1,0.041666666666666664
+TGO,Seed cotton,24,12,0.5
+TGO,Sorghum,24,0,0.0
+TGO,Soybeans,20,17,0.85
+TGO,Sweet potatoes,24,3,0.125
+TGO,Yams,24,1,0.041666666666666664
+THA,Barley,24,22,0.9166666666666666
+THA,Cassava,24,1,0.041666666666666664
+THA,"Groundnuts, with shell",24,2,0.08333333333333333
+THA,Maize,24,1,0.041666666666666664
+THA,Potatoes,24,1,0.041666666666666664
+THA,Pulses nes,24,24,1.0
+THA,"Rice, paddy",24,0,0.0
+THA,Seed cotton,24,16,0.6666666666666666
+THA,Sorghum,24,1,0.041666666666666664
+THA,Soybeans,24,1,0.041666666666666664
+THA,Sunflower seed,24,0,0.0
+THA,Wheat,24,24,1.0
+TJK,Barley,24,4,0.16666666666666666
+TJK,"Groundnuts, with shell",24,8,0.3333333333333333
+TJK,Maize,24,3,0.125
+TJK,Millet,23,6,0.2608695652173913
+TJK,Oats,24,4,0.16666666666666666
+TJK,Potatoes,24,0,0.0
+TJK,Pulses nes,24,4,0.16666666666666666
+TJK,Rapeseed,24,10,0.4166666666666667
+TJK,"Rice, paddy",24,0,0.0
+TJK,Rye,24,5,0.20833333333333334
+TJK,Seed cotton,24,0,0.0
+TJK,Sorghum,24,4,0.16666666666666666
+TJK,Soybeans,23,12,0.5217391304347826
+TJK,Sunflower seed,24,0,0.0
+TJK,Wheat,24,2,0.08333333333333333
+TKM,Barley,24,6,0.25
+TKM,Maize,24,4,0.16666666666666666
+TKM,Potatoes,24,11,0.4583333333333333
+TKM,"Rice, paddy",24,7,0.2916666666666667
+TKM,Seed cotton,24,3,0.125
+TKM,Sugar beet,24,16,0.6666666666666666
+TKM,Wheat,24,9,0.375
+TLS,Cassava,24,18,0.75
+TLS,"Groundnuts, with shell",24,20,0.8333333333333334
+TLS,Maize,24,12,0.5
+TLS,Potatoes,24,17,0.7083333333333334
+TLS,"Rice, paddy",24,11,0.4583333333333333
+TLS,Soybeans,24,19,0.7916666666666666
+TLS,Sweet potatoes,24,15,0.625
+TON,Cassava,24,24,1.0
+TON,"Groundnuts, with shell",24,24,1.0
+TON,Sweet potatoes,24,23,0.9583333333333334
+TON,Yams,24,23,0.9583333333333334
+TTO,Cassava,24,4,0.16666666666666666
+TTO,Maize,4,4,1.0
+TTO,Pulses nes,24,18,0.75
+TTO,"Rice, paddy",24,12,0.5
+TTO,Sweet potatoes,24,7,0.2916666666666667
+TTO,Yams,24,12,0.5
+TUN,Barley,24,1,0.041666666666666664
+TUN,Oats,24,24,1.0
+TUN,Potatoes,24,7,0.2916666666666667
+TUN,Pulses nes,24,24,1.0
+TUN,Rapeseed,24,24,1.0
+TUN,Seed cotton,24,24,1.0
+TUN,Sorghum,24,24,1.0
+TUN,Sugar beet,13,8,0.6153846153846154
+TUN,Sunflower seed,24,21,0.875
+TUN,Wheat,24,1,0.041666666666666664
+TUR,Barley,24,0,0.0
+TUR,"Groundnuts, with shell",24,0,0.0
+TUR,Maize,24,0,0.0
+TUR,Millet,24,0,0.0
+TUR,Oats,24,0,0.0
+TUR,Potatoes,24,0,0.0
+TUR,Pulses nes,24,0,0.0
+TUR,Rapeseed,24,0,0.0
+TUR,"Rice, paddy",24,0,0.0
+TUR,Rye,24,0,0.0
+TUR,Seed cotton,24,0,0.0
+TUR,Sorghum,20,0,0.0
+TUR,Soybeans,24,0,0.0
+TUR,Sugar beet,24,0,0.0
+TUR,Sunflower seed,24,0,0.0
+TUR,Wheat,24,0,0.0
+TWN,Cassava,24,0,0.0
+TWN,"Groundnuts, with shell",24,0,0.0
+TWN,Maize,24,0,0.0
+TWN,Millet,24,14,0.5833333333333334
+TWN,Potatoes,24,0,0.0
+TWN,Rapeseed,23,21,0.9130434782608695
+TWN,"Rice, paddy",24,0,0.0
+TWN,Sorghum,24,0,0.0
+TWN,Soybeans,24,0,0.0
+TWN,Sweet potatoes,24,0,0.0
+TWN,Wheat,24,0,0.0
+TZA,Barley,24,14,0.5833333333333334
+TZA,Cassava,24,5,0.20833333333333334
+TZA,"Groundnuts, with shell",24,6,0.25
+TZA,Maize,24,5,0.20833333333333334
+TZA,Millet,24,4,0.16666666666666666
+TZA,Potatoes,24,11,0.4583333333333333
+TZA,Pulses nes,24,20,0.8333333333333334
+TZA,"Rice, paddy",24,3,0.125
+TZA,Seed cotton,24,10,0.4166666666666667
+TZA,Sorghum,24,5,0.20833333333333334
+TZA,Soybeans,24,10,0.4166666666666667
+TZA,Sunflower seed,24,5,0.20833333333333334
+TZA,Sweet potatoes,24,7,0.2916666666666667
+TZA,Wheat,24,5,0.20833333333333334
+TZA,Yams,24,24,1.0
+UGA,Cassava,24,10,0.4166666666666667
+UGA,"Groundnuts, with shell",24,8,0.3333333333333333
+UGA,Maize,24,3,0.125
+UGA,Millet,24,9,0.375
+UGA,Potatoes,24,8,0.3333333333333333
+UGA,"Rice, paddy",24,3,0.125
+UGA,Seed cotton,24,24,1.0
+UGA,Sorghum,24,6,0.25
+UGA,Soybeans,24,4,0.16666666666666666
+UGA,Sunflower seed,24,13,0.5416666666666666
+UGA,Sweet potatoes,24,6,0.25
+UGA,Wheat,24,4,0.16666666666666666
+UKR,Barley,24,0,0.0
+UKR,Maize,24,0,0.0
+UKR,Millet,24,0,0.0
+UKR,Oats,24,0,0.0
+UKR,Potatoes,24,0,0.0
+UKR,Pulses nes,23,0,0.0
+UKR,Rapeseed,24,0,0.0
+UKR,"Rice, paddy",24,0,0.0
+UKR,Rye,24,0,0.0
+UKR,Sorghum,24,0,0.0
+UKR,Soybeans,24,0,0.0
+UKR,Sugar beet,24,0,0.0
+UKR,Sunflower seed,24,0,0.0
+UKR,Wheat,24,1,0.041666666666666664
+URY,Barley,24,0,0.0
+URY,"Groundnuts, with shell",24,23,0.9583333333333334
+URY,Maize,24,0,0.0
+URY,Oats,24,8,0.3333333333333333
+URY,Potatoes,24,0,0.0
+URY,Rapeseed,19,0,0.0
+URY,"Rice, paddy",24,0,0.0
+URY,Sorghum,24,0,0.0
+URY,Soybeans,24,0,0.0
+URY,Sunflower seed,19,0,0.0
+URY,Sweet potatoes,24,23,0.9583333333333334
+URY,Wheat,24,0,0.0
+USA,Barley,24,0,0.0
+USA,"Groundnuts, with shell",24,0,0.0
+USA,Maize,24,0,0.0
+USA,Millet,24,0,0.0
+USA,Oats,24,0,0.0
+USA,Potatoes,24,0,0.0
+USA,Rapeseed,24,0,0.0
+USA,"Rice, paddy",24,0,0.0
+USA,Rye,24,0,0.0
+USA,Seed cotton,24,9,0.375
+USA,Sorghum,24,0,0.0
+USA,Soybeans,24,0,0.0
+USA,Sugar beet,24,0,0.0
+USA,Sunflower seed,24,0,0.0
+USA,Sweet potatoes,24,0,0.0
+USA,Wheat,24,0,0.0
+UZB,Barley,24,0,0.0
+UZB,"Groundnuts, with shell",24,0,0.0
+UZB,Maize,24,0,0.0
+UZB,Millet,24,15,0.625
+UZB,Oats,6,6,1.0
+UZB,Potatoes,24,0,0.0
+UZB,Pulses nes,24,8,0.3333333333333333
+UZB,Rapeseed,24,24,1.0
+UZB,"Rice, paddy",24,0,0.0
+UZB,Rye,24,8,0.3333333333333333
+UZB,Seed cotton,24,3,0.125
+UZB,Sorghum,24,19,0.7916666666666666
+UZB,Soybeans,8,0,0.0
+UZB,Sugar beet,9,3,0.3333333333333333
+UZB,Sunflower seed,24,0,0.0
+UZB,Wheat,24,0,0.0
+VCT,Cassava,24,18,0.75
+VCT,"Groundnuts, with shell",24,12,0.5
+VCT,Maize,24,10,0.4166666666666667
+VCT,Pulses nes,24,24,1.0
+VCT,Sweet potatoes,24,17,0.7083333333333334
+VCT,Yams,24,10,0.4166666666666667
+VEN,Cassava,24,1,0.041666666666666664
+VEN,"Groundnuts, with shell",24,1,0.041666666666666664
+VEN,Maize,24,0,0.0
+VEN,Potatoes,24,1,0.041666666666666664
+VEN,"Rice, paddy",24,0,0.0
+VEN,Seed cotton,24,1,0.041666666666666664
+VEN,Sorghum,24,1,0.041666666666666664
+VEN,Soybeans,24,1,0.041666666666666664
+VEN,Sugar beet,24,0,0.0
+VEN,Sunflower seed,24,1,0.041666666666666664
+VEN,Sweet potatoes,24,1,0.041666666666666664
+VEN,Wheat,24,7,0.2916666666666667
+VEN,Yams,24,1,0.041666666666666664
+VNM,Cassava,24,0,0.0
+VNM,"Groundnuts, with shell",24,0,0.0
+VNM,Maize,24,0,0.0
+VNM,Millet,24,10,0.4166666666666667
+VNM,Potatoes,24,8,0.3333333333333333
+VNM,Pulses nes,24,24,1.0
+VNM,"Rice, paddy",24,0,0.0
+VNM,Seed cotton,24,0,0.0
+VNM,Soybeans,24,0,0.0
+VNM,Sweet potatoes,24,0,0.0
+VUT,Cassava,2,2,1.0
+VUT,"Groundnuts, with shell",24,22,0.9166666666666666
+VUT,Maize,24,24,1.0
+VUT,Potatoes,2,2,1.0
+VUT,Sweet potatoes,2,2,1.0
+VUT,Yams,2,2,1.0
+WSM,Cassava,24,24,1.0
+WSM,Yams,24,23,0.9583333333333334
+YEM,Barley,24,0,0.0
+YEM,"Groundnuts, with shell",15,4,0.26666666666666666
+YEM,Maize,24,1,0.041666666666666664
+YEM,Millet,24,4,0.16666666666666666
+YEM,Potatoes,24,0,0.0
+YEM,Pulses nes,24,14,0.5833333333333334
+YEM,Seed cotton,24,2,0.08333333333333333
+YEM,Sorghum,24,4,0.16666666666666666
+YEM,Sweet potatoes,24,24,1.0
+YEM,Wheat,24,4,0.16666666666666666
+ZAF,Barley,24,0,0.0
+ZAF,"Groundnuts, with shell",24,0,0.0
+ZAF,Maize,24,0,0.0
+ZAF,Millet,24,24,1.0
+ZAF,Oats,24,17,0.7083333333333334
+ZAF,Potatoes,24,19,0.7916666666666666
+ZAF,Rapeseed,24,0,0.0
+ZAF,"Rice, paddy",24,24,1.0
+ZAF,Rye,24,19,0.7916666666666666
+ZAF,Seed cotton,24,0,0.0
+ZAF,Sorghum,24,0,0.0
+ZAF,Soybeans,24,0,0.0
+ZAF,Sunflower seed,24,0,0.0
+ZAF,Sweet potatoes,24,23,0.9583333333333334
+ZAF,Wheat,24,0,0.0
+ZMB,Barley,24,10,0.4166666666666667
+ZMB,Cassava,24,15,0.625
+ZMB,"Groundnuts, with shell",24,3,0.125
+ZMB,Maize,24,0,0.0
+ZMB,Millet,24,2,0.08333333333333333
+ZMB,Potatoes,24,7,0.2916666666666667
+ZMB,Pulses nes,24,23,0.9583333333333334
+ZMB,"Rice, paddy",24,1,0.041666666666666664
+ZMB,Seed cotton,24,10,0.4166666666666667
+ZMB,Sorghum,24,0,0.0
+ZMB,Soybeans,24,1,0.041666666666666664
+ZMB,Sunflower seed,24,1,0.041666666666666664
+ZMB,Sweet potatoes,24,1,0.041666666666666664
+ZMB,Wheat,24,3,0.125
+ZWE,Barley,24,16,0.6666666666666666
+ZWE,Cassava,24,24,1.0
+ZWE,"Groundnuts, with shell",24,0,0.0
+ZWE,Maize,24,0,0.0
+ZWE,Millet,24,1,0.041666666666666664
+ZWE,Oats,24,24,1.0
+ZWE,Potatoes,24,14,0.5833333333333334
+ZWE,Pulses nes,24,24,1.0
+ZWE,"Rice, paddy",24,18,0.75
+ZWE,Seed cotton,24,15,0.625
+ZWE,Sorghum,24,2,0.08333333333333333
+ZWE,Soybeans,24,1,0.041666666666666664
+ZWE,Sunflower seed,24,1,0.041666666666666664
+ZWE,Sweet potatoes,24,14,0.5833333333333334
+ZWE,Wheat,24,9,0.375

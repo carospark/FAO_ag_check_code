@@ -5,6 +5,12 @@ from scipy import stats
 from pkg import pearson_corr, plot_twin_lines
 plt.rcParams.update({'font.size': 22})
 
+def lag_subtitles(data, facet_col):
+    """Build {facet_value: '(lead)'/'(lag)'/''} from whichlag column."""
+    lag_map = {"yield_lag": "(lag)", "yield_lead": "(lead)", "yield_log_dt": ""}
+    return (data.groupby(facet_col)['whichlag'].first()
+            .map(lag_map).fillna("").to_dict())
+
 if __name__ == "__main__":
 
 
@@ -21,14 +27,16 @@ if __name__ == "__main__":
     ### plot best survey-satellite relationships
     colors1 = ["green", "orange", "#98ff98", "#d0aaf3", "pink"]
     best = usa[usa['cropname'].isin(sorted_crops[:5])]
-    plot_twin_lines(best, col="cropname", col_order = sorted_crops[:5], col_wrap=5, 
-                    grid_kwargs={"hue":"cropname", 'palette': colors1}, plot_kwargs= None, filename="usa_ts_best")
+    plot_twin_lines(best, col="cropname", col_order = sorted_crops[:5], col_wrap=5,
+                    grid_kwargs={"hue":"cropname", 'palette': colors1}, plot_kwargs= None, filename="usa_ts_best",
+                    subtitles=lag_subtitles(best, "cropname"))
 
 
     colors2 = ["maroon", "#cbbeb5", "#aa629c", "#9bd18c", "#2acaea"]
     worst = usa[usa['cropname'].isin(sorted_crops[-5:])]
-    plot_twin_lines(worst, col="cropname", col_order = sorted_crops[-5:], col_wrap=5, 
-                    grid_kwargs={"hue":"cropname", 'palette': colors2}, plot_kwargs= None, filename= "usa_ts_worst")
+    plot_twin_lines(worst, col="cropname", col_order = sorted_crops[-5:], col_wrap=5,
+                    grid_kwargs={"hue":"cropname", 'palette': colors2}, plot_kwargs= None, filename= "usa_ts_worst",
+                    subtitles=lag_subtitles(worst, "cropname"))
     
 
     ################################# global plots: FAOSTAT maize flags
@@ -54,7 +62,8 @@ if __name__ == "__main__":
     flags_best = flags[flags['iso_a3'].isin(corr_idx.iloc[-5:,1])]
     flags_best.empty ## check to make sure there aren't flags
 
-    plot_twin_lines(df, col="country", col_wrap = 5, col_order = corr_idx.iloc[-5:,0], grid_kwargs=None, plot_kwargs={'color': "red"}, filename="global_maize_best_ts.pdf")
+    plot_twin_lines(df, col="country", col_wrap = 5, col_order = corr_idx.iloc[-5:,0], grid_kwargs=None, plot_kwargs={'color': "red"}, filename="global_maize_best_ts",
+                    subtitles=lag_subtitles(df, "country"))
 
     ### lowest survey-satellite correlations for maize:
     df = maize_18[maize_18['country'].isin(corr_idx.iloc[:5,0])]
@@ -62,5 +71,6 @@ if __name__ == "__main__":
     flags_worst.groupby('iso_a3')[['year']].agg([min, max, len])
     fl = flags_worst[["country", 'year']].values.tolist()
 
-    plot_twin_lines(df, col="country", col_wrap = 5, col_order = corr_idx.iloc[:5,0], grid_kwargs=None, plot_kwargs={'color': "red"}, 
-                    filename="global_maize_worst_ts.pdf", fl=fl)
+    plot_twin_lines(df, col="country", col_wrap = 5, col_order = corr_idx.iloc[:5,0], grid_kwargs=None, plot_kwargs={'color': "red"},
+                    filename="global_maize_worst_ts", fl=fl,
+                    subtitles=lag_subtitles(df, "country"))

@@ -15,7 +15,8 @@ dependencies = [
     "seaborn",
     "geopandas",
     "statsmodels",
-    "scipy" ]
+    "scipy",
+    "pycountry" ]
 
 [tool.setuptools]
 package-dir = {"" = "src"}

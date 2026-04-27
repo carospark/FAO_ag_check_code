@@ -26,3 +26,5 @@ basic_fxs_practice.ipynb
 dist/
 build/
 
+.claude/
+notebooks/
