@@ -44,3 +44,18 @@ python src/scripts/6.supplementary.py
 - `src/scripts/` — Analysis pipeline (run in order, starting from step 2)
 - `data/` — Finished data products used in analysis
 - `plots/` — All plots included in manuscript
+
+## Quickstart for reviewers
+
+```bash
+git clone https://github.com/carospark/FAO_ag_check_code.git
+cd FAO_ag_check_code
+pip install -e .
+python src/scripts/2.YC_model.py
+python src/scripts/3.YC_line_plots.py
+python src/scripts/4.YC_map_plots.py
+python src/scripts/5.teaser_weather_analysis.py
+python src/scripts/6.supplementary.py
+```
+
+All inputs for scripts 2–6 are bundled under `data/`. Script 5 fetches a small country-centroids file from GitHub at runtime; no other network access is required. Outputs (figures and LaTeX tables) are written to `plots/` and stdout respectively.

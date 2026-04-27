@@ -1,3 +1,10 @@
+# =============================================================================
+# REQUIRES RAW PER-COUNTRY DATA NOT INCLUDED IN THIS REPO. 
+# Replace BASE below with the path to your local data root before running.
+# Most users do NOT need to run this script — the outputs (./data/*.csv)
+# are already provided.
+# =============================================================================
+
 from pathlib import Path
 from pkg import first_clean, fetch_ag_covariates, flexible_merge, detrend_group, pearson_corr
 from functools import reduce
