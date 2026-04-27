@@ -48,7 +48,7 @@ python src/scripts/6.supplementary.py
 ## Quickstart for reviewers
 
 ```bash
-git clone https://github.com/carospark/FAO_ag_check_code.git
+git clone <REPO_URL>
 cd FAO_ag_check_code
 pip install -e .
 python src/scripts/2.YC_model.py
